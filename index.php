@@ -333,6 +333,9 @@
     </div>
     <div class="ball"></div>
     <?php
+        require_once("products.php");
+    ?>
+    <?php
         require_once("footer.php");
     ?>
     <?php
