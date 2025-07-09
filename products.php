@@ -696,6 +696,62 @@
 </style>
 
 <script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Solo ejecuta si estamos en products.php
+    if (window.location.pathname.includes('products.php')) {
+        // Selecciona todos los enlaces del dropdown que apuntan a slides
+        document.querySelectorAll('a.dropdown-item[href^="products.php#slide-"]').forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                var slideId = this.getAttribute('href').split('#')[1];
+                var slideNum = parseInt(slideId.replace('slide-', ''), 10);
+                document.querySelectorAll('.product-slide').forEach(function(slide) {
+                    slide.style.opacity = '0';
+                    slide.style.transform = 'scale(0.5)';
+                    slide.style.zIndex = '5';
+                });
+                var activeSlide = document.getElementById(slideId);
+                if (activeSlide) {
+                    activeSlide.style.opacity = '1';
+                    activeSlide.style.transform = 'scale(1)';
+                    activeSlide.style.zIndex = '10';
+                    document.getElementById('products').scrollIntoView({behavior: 'smooth'});
+                }
+                // ACTUALIZA currentSlide
+                if (typeof window.setCurrentSlide === 'function') {
+                    window.setCurrentSlide(slideNum);
+                }
+                var dropdown = document.querySelector('.dropdown-menu.show');
+                if (dropdown) dropdown.classList.remove('show');
+            });
+        });
+
+        // NUEVO: Mostrar slide según el hash al cargar la página
+        if (window.location.hash && window.location.hash.startsWith('#slide-')) {
+            var slideId = window.location.hash.replace('#', '');
+            var slideNum = parseInt(slideId.replace('slide-', ''), 10);
+            document.querySelectorAll('.product-slide').forEach(function(slide) {
+                slide.style.opacity = '0';
+                slide.style.transform = 'scale(0.5)';
+                slide.style.zIndex = '5';
+            });
+            var activeSlide = document.getElementById(slideId);
+            if (activeSlide) {
+                activeSlide.style.opacity = '1';
+                activeSlide.style.transform = 'scale(1)';
+                activeSlide.style.zIndex = '10';
+                document.getElementById('products').scrollIntoView({behavior: 'smooth'});
+            }
+            // ACTUALIZA currentSlide
+            if (typeof window.setCurrentSlide === 'function') {
+                window.setCurrentSlide(slideNum);
+            }
+        }
+    }
+});
+</script>
+
+<script>
 document.addEventListener('DOMContentLoaded', function() {
     if (typeof gsap !== 'undefined') {
         // Elementos
@@ -712,7 +768,13 @@ document.addEventListener('DOMContentLoaded', function() {
         let currentSlide = 0;
         let totalSlides = 7;
         let isAnimating = false;
-        let canScroll = true;
+        let canScroll = true;                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+        window.setCurrentSlide = function(num) {
+    if (typeof num === 'number' && num >= 0 && num <= 6) {
+        currentSlide = num;
+    }
+};
         
         // Función para actualizar visibilidad del título
         function updateTitleVisibility() {
