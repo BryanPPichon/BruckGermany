@@ -29,10 +29,6 @@
             </div>
         </section>
 
-        <?php
-            require_once("products.php");
-        ?>
-
         <section id="partners" class="">
             <div class="container">
                 <div class="row">

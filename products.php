@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <?php
+        require_once("head.php");
+        require_once("tracking.php");
+    ?>
+</head>
+
+<body>
+    <?php
+        require_once("header.php");
+    ?>
 <section id="products" class="products-section">
     <div class="container-fluid">
         <!-- Slide inicial - Presentación -->
@@ -193,7 +207,7 @@
                 <!-- Imagen de la izquierda -->
                 <div class="col-auto p-0">
                     <div class="product-image-container">
-                        <img src="img/0amortiguadores.png" alt="Amortiguadores" class="img-fluid product-main-image">
+                        <img src="img/0amortiguadores.png" alt="Amortiguadores" class="img-fluid product-main-image rotated-amortiguadores">
                     </div>
                 </div>
                 
@@ -354,6 +368,8 @@
     justify-content: flex-start;
     z-index: 10;
     width: auto;
+    max-width: 680px;
+    overflow: hidden;
 }
 
 .product-main-image {
@@ -361,6 +377,10 @@
     width: auto;
     object-fit: contain;
     align-self: flex-end;
+}
+
+.product-main-image.rotated-amortiguadores {
+    transform: rotate(20deg) translateX(-35%);
 }
 
 .product-content {
@@ -372,6 +392,90 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+@media (max-width: 1660px) {
+    .intro-main-image {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 1330px) {
+    .intro-image-container {
+        height: 40vh;
+    }
+
+    .intro-content {
+        padding: 0 20px;
+    }
+
+    .product-main-image {
+        height: 60vh;
+    }
+
+    .product-content {
+        padding: 0 10% 0 10px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .intro-image-container {
+        height: 30vh;
+    }
+
+    .intro-content {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .product-image-container {
+        display: none;
+    }
+
+    .product-main-image {
+        height: 50vh;
+    }
+
+    .product-content {
+        padding: 5%;
+    }
+}
+
+@media (max-width: 760px) {
+        #slide-0 .row {
+            display: flex;
+        }
+}
+
+@media (max-width: 970px) {
+    #slide-0 .row {
+        min-height: 60vh;
+        align-items: center !important;
+    }
+    .intro-image-container {
+        height: auto;
+        padding-left: 0;
+        justify-content: center;
+        width: 100%;
+    }
+    .intro-main-image {
+        height: 28vh;
+        margin: 0 auto;
+        display: block;
+    }
+    .intro-content {
+        align-items: left;
+        width: 100%;
+    }
+    .intro-title {
+        font-size: 2rem;
+        text-align: left;
+    }
+    .intro-subtitle {
+        font-size: 1.1rem;
+        text-align: left;
+    }
 }
 
 .product-content-card {
@@ -400,12 +504,9 @@
 }
 
 .product-title {
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 1.1;
+    font-size: 1.3rem;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-family: var(--font-main);
     color: white;
     text-align: center;
     position: absolute;
@@ -433,20 +534,27 @@
 
 .product-buttons {
     display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
+    gap: 15px;
+    flex-wrap: nowrap;
     justify-content: flex-start;
+    align-items: center;
+    width: 100%;
 }
 
 .btn-conoce {
     background: rgb(255, 255, 255);
     border: 2px solid rgb(177, 177, 177);
     color: black;
-    padding: 15px 30px;
+    padding: 12px 20px;
     font-weight: 600;
     border-radius: 15px;
     transition: all 0.3s ease;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    flex: 1;
+    min-width: 120px;
+    max-width: 180px;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .btn-conoce:hover {
@@ -460,11 +568,16 @@
     background: rgb(226, 62, 78);
     border: 2px solid rgb(168, 0, 17);
     color: white;
-    padding: 15px 30px;
+    padding: 12px 20px;
     font-weight: 600;
     border-radius: 15px;
     transition: all 0.3s ease;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    flex: 1;
+    min-width: 120px;
+    max-width: 180px;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .btn-descargar:hover {
@@ -472,35 +585,6 @@
     border-color:rgb(160, 0, 17);
     color: white;
     transform: translateY(-2px);
-}
-
-.floating-sphere {
-    position: absolute;
-    z-index: 1;
-}
-
-.sphere-1 {
-    top: 50%;
-    left: 20%;
-}
-
-.sphere-2 {
-    top: 30%;
-    right: 15%;
-}
-
-.sphere-image {
-    width: 80px;
-    height: 80px;
-    opacity: 0.6;
-    filter: drop-shadow(0 0 20px rgba(0, 188, 212, 0.5));
-}
-
-.sphere-2 .sphere-image {
-    width: 60px;
-    height: 60px;
-    opacity: 0.5;
-    filter: drop-shadow(0 0 15px rgba(220, 53, 69, 0.4));
 }
 
 /* Responsive */
@@ -523,13 +607,15 @@
     }
     
     .product-buttons {
-        flex-direction: column;
-        align-items: center;
+        gap: 10px;
     }
     
     .btn-conoce,
     .btn-descargar {
-        width: 200px;
+        padding: 10px 15px;
+        font-size: 0.75rem;
+        min-width: 100px;
+        max-width: 150px;
     }
     
     .product-title {
@@ -542,6 +628,32 @@
     .product-title {
         font-size: 1.2rem;
         top: 3%;
+    }
+    
+    .product-buttons {
+        gap: 8px;
+    }
+    
+    .btn-conoce,
+    .btn-descargar {
+        padding: 8px 12px;
+        font-size: 0.7rem;
+        min-width: 80px;
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-conoce,
+    .btn-descargar {
+        padding: 6px 10px;
+        font-size: 0.65rem;
+        min-width: 70px;
+        max-width: 100px;
+    }
+    
+    .product-buttons {
+        gap: 6px;
     }
 }
 
@@ -947,3 +1059,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
+
+    <?php
+        require_once("footer.php");
+    ?>
+    <?php
+        require_once("script.php");
+    ?>
+</body>
+</html>
