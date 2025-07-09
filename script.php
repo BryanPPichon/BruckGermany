@@ -4,6 +4,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script
 <script src="js/plugin/owl.carousel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="js/plugin/parallax.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqnJiYpM9bzVP6VR9TEtIvX_fwbrVeDtM&callback=initMap"></script>
 <!-- loader -->
