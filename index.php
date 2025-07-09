@@ -29,6 +29,10 @@
             </div>
         </section>
 
+        <?php
+            require_once("products.php");
+        ?>
+
         <section id="partners" class="">
             <div class="container">
                 <div class="row">
@@ -333,14 +337,10 @@
     </div>
     <div class="ball"></div>
     <?php
-        require_once("products.php");
-    ?>
-    <?php
         require_once("footer.php");
     ?>
     <?php
         require_once("script.php");
     ?>
 </body>
-
 </html>
