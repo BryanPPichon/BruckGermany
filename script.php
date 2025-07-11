@@ -9,7 +9,6 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
 <script src="js/plugin/parallax.js"></script>
-
 <script async defer src="js/maps.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqnJiYpM9bzVP6VR9TEtIvX_fwbrVeDtM&callback=initMap&loading=async"></script>
  
