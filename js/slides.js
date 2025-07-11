@@ -16,10 +16,10 @@ panels.forEach((item, i) => {
     markers: false,
     
     pin: true,
-    start: "top 30%",
+    start: "top 20%",
     end: "bottom 0%",
     
-    snap: { snapTo: [0.5], duration: 4, delay: 0},
+    snap: { snapTo: [0.5], duration: 1, delay: 0},
     
     onEnter: ({ progress, direction, isActive }) => {
       console.log("onEnter", progress, direction, isActive);

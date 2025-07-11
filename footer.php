@@ -1,8 +1,8 @@
-<footer class="">
+<footer class="footer">
     <div class="row">
         <div class="col-12 col-md-4 offset-md-1">
             <div class="row">
-                <div class="col-12 col-md-8 text-center text-md-start">
+                <div class="col-12 col-md-8 text-center text-md-start footer-net">
                     <a href="">
                         <img src="img/300_B&R.png" class="py-3" width="25%" alt="">
                     </a>
@@ -11,11 +11,21 @@
                             consequat duis enim velit mollit.
                         </p>
                     
-                    <div>
-                        <div>
-                            <a href="#"><img src="img/facebook_logo.png" width="9" alt="facebook"></a>
-                            <a href="#"><img src="img/instagram_logo.png" width="15" alt="instagram"></a>
-                            <a href="#"><img src="img/whatsapp_logo.png" width="15" alt="whatsapp"></a>
+                    <div class="w-100 logos">
+                        <div class="face">
+                            <a href="https://www.facebook.com/bruckgermany" target="_blank">
+                                <img src="img/facebook_logo.png" width="9" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="insta">
+                            <a href="https://www.instagram.com/bruck_germany" target="_blank">
+                                <img src="img/instagram_logo.png" width="15" alt="instagram">
+                            </a>
+                        </div>
+                        <div class="whatsapp">
+                            <a href="#" target="_blank">
+                                <img src="img/whatsapp_logo.png" width="15" alt="whatsapp">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -25,11 +35,7 @@
             <div class="row">
                 <!--PRIMERA COLUMNA-->
                 <div class="col-12 col-md-3 text-center text-md-start">
-<<<<<<< Updated upstream
-                    <p class="h3">ADN</p>
-=======
                     <h3 class="efect">ADN</h3>
->>>>>>> Stashed changes
                     <div class="">
                         <a class="" href="#mision">Misión</a>
                     </div>
@@ -48,11 +54,7 @@
                 </div>
                 <!--SEGUNDA COLUMNA-->
                 <div class="col-12 col-md-3 text-center text-md-start">
-<<<<<<< Updated upstream
-                    <p class="h3">PARTNERS</p>
-=======
                     <h3 class="efect">PARTNERS</h3>
->>>>>>> Stashed changes
                     <div class="">
                         <a class="" href="">Equipo</a>
                     </div>
@@ -65,11 +67,7 @@
                 </div>
                 <!--TERCERA COLUMNA-->
                 <div class="col-12 col-md-3 text-center text-md-start">
-<<<<<<< Updated upstream
-                    <p class="h3">PRODUCTOS</p>
-=======
                     <h3 class="efect">PRODUCTOS</h3>
->>>>>>> Stashed changes
                     <div class="">
                         <a class="" href="">Colisión e interiores</a>
                     </div>
@@ -91,11 +89,7 @@
                 </div>
                 <!--TERCERA COLUMNA-->
                 <div class="col-12 col-md-3 text-center text-md-start">
-<<<<<<< Updated upstream
-                    <p class="h3">CARRERAS</p>
-=======
                     <h3 class="efect">CARRERAS</h3>
->>>>>>> Stashed changes
                     <div class="">
                         <a class="" href="">Bolsa de trabajo</a>
                     </div>
@@ -105,14 +99,16 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-10 offset-md-1">
+            <hr>
+        </div>
     </div>
-    <hr>
     <!-- Leyenda en nueva fila con fondo negro y letras blancas -->
-    <div class="row">
-        <div class="col-12 col-md-4 offset-md-4 text-center ">
+    <div class="row my-5">
+        <div class="col-12 col-md-4 offset-md-4 text-center">
             © Copyright 2025, All Rights Reserved by Brük Germany
         </div>
-        <div class="col-12 col-md-4 text-center text-md-end">
+        <div class="col-12 col-md-4 text-center">
             By VmasIdeas
         </div>
     </div>

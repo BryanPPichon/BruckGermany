@@ -15,7 +15,7 @@
 
     <header>
         <video id="myVideo" preload="auto" loop autoplay playsinline muted class="vid-bg">
-            <source src="video/BrukAnimV2.mp4" type="video/mp4">
+            <source src="video/BrukGermany_Hor-V2.mp4" type="video/mp4">
         </video>
         <?php
             require_once("header.php");
@@ -24,20 +24,18 @@
     
     <div role="main" class="main">
 
-        <section id="adn" class="">
+        <section id="adn" class="adn">
+            <div class="car">
+                <img src="img/nuevo_ac.png" alt="car">
+            </div>
             <div class="container">
                 <div class="row">
-<<<<<<< Updated upstream
-                    <div class="col-12">
-                        <h5>ADN</h5>
-=======
                     <div class="col-12 text-center">
                         <p class="titleSection mt-5">ADN</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 text-center">
->>>>>>> Stashed changes
                         <h4>ACERCA DE</h4>
                         <h1>BRÜK GERMANY</h1>
                     </div>
@@ -45,15 +43,6 @@
             </div>
         </section>
 
-<<<<<<< Updated upstream
-        <section id="partners" class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1>Nuestra Gente</h1>
-                    </div>
-                    <div class="col-12">
-=======
         <section id="aboutus" class="aboutus">
             <div class="container">
                 <div class="row aligned-us"> 
@@ -61,43 +50,18 @@
                         <h1 id="our">Nuestra Gente</h1>
                     </div>
                     <div class="col-12 text-center col-md-6 offset-md-2 text-md-start aligned-us">
->>>>>>> Stashed changes
                         <p>Somos un equipo apasionado, cuya misión es inspirar a futuras generaciones de profesionales y
                                     fortalecer relaciones basadas en la lealtad, el compromiso y la integridad.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <!-- <div class="contentBub">
-          <div class="layerBub">
-            <div class="bubbleus">
-              <img src="img/Esfera.png" alt="">
-            </div>
-          </div>
-          <div class="layerBub">
-            <div class="bubbleus">
-              <img src="img/Esfera.png" alt="">
-            </div>
-          </div>
-          <div class="layerBub">
-            <div class="bubbleus">
-              <img src="img/Esfera.png" alt="">
-            </div>
-          </div>
-        </div> -->
 
-<<<<<<< Updated upstream
-                <div class="row">
-                    <div class="col-12">
-                        <h1>Nuestros Valores</h1>
-=======
         <section id="partners" class="partners">
             <div class="container">
                 <div id="listvalue" class="row">
                     <div class="col-12 text-center text-md-start my-4">
                         <h1 class="efect">Nuestros Valores</h1>
->>>>>>> Stashed changes
                     </div>
                     <div class="col-12">
                         <ul>
@@ -126,32 +90,8 @@
             </div>
         </section>
 
-        <section id="values" class="">
+        <section id="values" class="values">
             <div class="container">
-<<<<<<< Updated upstream
-                <div class="row">
-
-                    <div id="mision" class="col-md-6 col-lg-6 col-xs-12">
-                        <h3 style="text-align: center; opacity: 0.907315;" class="efect valuetitle my-5 p-5">MISIÓN</h3>
-                    </div>
-                    <div id="misiontxt" class="col-md-6 col-lg-6 col-xs-12">
-                        <p class="efect p-5"
-                            style="text-align: center; margin: 0px 50px; font-size: 24px; opacity: 0.793229;">Ofrecer
-                            plena confianza en nuestros productos, logrando la satisfacción de nuestros clientes a
-                            través de calidad, innovación y un servicio excepcional.</p>
-                    </div>
-                    <div id="visionlg" class="col-md-6 col-lg-6 col-xs-12 vision d-flex d-sm-none">
-                        <h3 style="text-align: center; opacity: 0;" class="efect valuetitle my-5 p-5">VISIÓN</h3>
-                    </div>
-                    <div id="visiontxt" class="col-md-6 col-lg-6 col-xs-12">
-                        <p class="efect p-5" style="text-align: center; margin: 0px 50px; font-size: 24px; opacity: 0;">
-                            Ser líderes en innovación dentro del mercado de repuestos, destacando como una marca
-                            reconocida por su seguridad, confiabilidad y compromiso. Nos esforzamos por ser el referente
-                            en la industria, construyendo una identidad sólida y valorada.</p>
-                    </div>
-                    <div id="visionlg" class="col-md-6 col-lg-6 col-xs-12 vision d-none d-sm-flex">
-                        <h3 style="text-align: center; opacity: 0;" class="efect valuetitle my-5 p-5">VISIÓN</h3>
-=======
                 <div class="traslucid">
                     <div class="row">
                         <div id="visionlg" class="col-12 text-center col-md-6 imavalue mision d-flex d-sm-none">
@@ -175,40 +115,27 @@
                                 en la industria, construyendo una identidad sólida y valorada.
                             </p>
                         </div>
->>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="tech" class="">
+        <section id="tech" class="tech">
             <div class="container">
                 <div class="row">
 
-<<<<<<< Updated upstream
-                    <div class="col-12">
-                        <div class="card mb-3" style="max-width: 540px;">
-=======
                     <div class="col-12 card__content">
                         <div class=" mb-3">
->>>>>>> Stashed changes
                             <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                <div class="col-12 text-center col-md-3 text-md-end">
+                                    <img src="img/historia.png" class="img-fluid rounded-start" alt="...">
                                 </div>
-<<<<<<< Updated upstream
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">HISTORIA</h5>
-                                        <p class="card-text">Con 30 años de experiencia, Brück Germany ha revolucionado
-=======
-                                <div class="col-12 text-justify col-md-7 offset-md-2 text-md-start card__inner">
-                                    <div class="col-md-5">
-                                        <h5 class="my-3 text-center text-md-start">HISTORIA</h5>
+                                <div class="col-12 text-center col-md-7 offset-md-2 text-md-start card__inner">
+                                    <div class="col-md-5 text-center text-md-start">
+                                        <h5 class="my-3">HISTORIA</h5>
                                     </div>
                                     <div class="col-md-12">
                                         <p>Con 30 años de experiencia, Brück Germany ha revolucionado
->>>>>>> Stashed changes
                                             la industria de autopartes en México, posicionándose como líder en
                                             innovación y calidad superior. Nuestra historia se forja en la búsqueda
                                             constante de la excelencia, superando retos y adaptándonos a un mercado en
@@ -219,32 +146,20 @@
                             </div>
                         </div>
                     </div>
-<<<<<<< Updated upstream
-                    <div class="col-12">
-                        <div class="card mb-3" style="max-width: 540px;">
-=======
                     <div class="col-12 card__content">
                         <div class=" mb-3">
->>>>>>> Stashed changes
                             <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="..." class="img-fluid rounded-start" alt="...">
+                                <div class="col-12 text-center col-md-3 text-md-end">
+                                    <img src="img\Partners.png" class="img-fluid rounded-start" alt="...">
                                 </div>
-<<<<<<< Updated upstream
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">PARTNERS</h5>
-                                        <p class="card-text">En Brück Germany colocamos a las personas en el corazón de
-=======
-                                <div class="col-12 text-justify col-md-7 offset-md-2 text-md-start card__inner">
-                                    <div class="col-md-5 text-start">
-                                        <h5 class="my-3 text-center text-md-start">PARTNERS</h5>
+                                <div class="col-12 text-center col-md-7 offset-md-2 text-md-start card__inner">
+                                    <div class="col-md-5 text-center text-md-start">
+                                        <h5 class="my-3">PARTNERS</h5>
                                     </div>
                                     <div class="col-md-12">
                                         <p>En Brück Germany colocamos a las personas en el corazón de
->>>>>>> Stashed changes
                                             nuestro modelo de negocio, donde la calidad humana de colaboradores,
-                                            clientesy proveedores es la base de relaciones sólidas y duraderas. Nuestro
+                                            clientesy proveedores es la base de relaciones sólidas y duraderas. <br><br>Nuestro
                                             compromiso ético y responsable se traduce en prácticas comerciales
                                             conscientes que priorizan la honestidad, la atención personalizada y
                                             procesos prácticos y eficientes para hacer cada interacción más sencillay
@@ -259,82 +174,82 @@
             </div>
         </section>
 
-        <section id="carrers" class="">
+        <section id="carrers" class="carrers">
             <div class="container">
                 <div class="row">
-<<<<<<< Updated upstream
-                    <h4 class="efect">CARRERAS</h4>
-                    <h1 class="efect">Desarrollo Profesional y Bolsa de Trabajo</h1>
-                    <div id="news_line" class="customer-container owl-carousel owl-theme" style="padding: 0 80px;">
-                        <!-- customer -->
-                        <div id="template_news" class="tarjeta">
-                            <a href="#">
-                                <div class="img-box image-container">
-=======
                     <div class="col-12 text-center">
                         <p class="titleSection">CARRERAS</p>
                     </div>
                     <div class="col-12 text-center">
                         <h1 class="my-3 efect">Desarrollo Profesional y Bolsa de Trabajo</h1>
                     </div>
->>>>>>> Stashed changes
 
-                                    <img src="" class="fit-image" alt="VACANTES">
+                    <div class="col-12 carrer-jobs text-center">
+                        <div id="news_line" class="customer-container owl-carousel owl-theme">
+                            <!-- customer -->
+                            <div id="template_news" class="tarjeta my-5">
+                                <a href="#">
+                                    <div class="img-box image-container">
 
-                                </div>
-                            </a>
-                            <h2>VACANTES</h2>
-                            <p class="redux">Únete a nuestro equipo y contribuye a impulsar el futuro de la movilidad en
-                                México.</p>
+                                        <img src="img/vacantes.jpg" class="fit-image" alt="VACANTES">
 
+                                    </div>
+                                </a>
+                                <h2 class="m-2">VACANTES</h2>
+                                <p class="redux">Únete a nuestro equipo y contribuye a impulsar el futuro de la movilidad en
+                                    México.</p>
+
+                            </div>
+                            <!-- end of customer -->
+                            <!-- customer -->
+                            <div id="template_news" class="tarjeta my-5">
+                                <a href="#">
+                                    <div class="img-box image-container">
+
+                                        <img src="img/formacion_continua.jpg" class="fit-image" alt="Programas de formación continua">
+
+                                    </div>
+                                </a>
+                                <h2 class="m-2">Programas de formación continua</h2>
+                                <p class="redux">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate fugiat
+                                    delectus inventore animi ab. Iusto odit dignissimos, quae commodi iure consequatur
+                                    aliquam perferendis et eaque.</p>
+
+                            </div>
+                            <!-- end of customer -->
+                            <!-- customer -->
+                            <div id="template_news" class="tarjeta my-5">
+                                <a href="#">
+                                    <div class="img-box image-container">
+
+                                        <img src="img/Crecimiento_profesional.jpg" class="fit-image" alt="crecimiento profesional">
+
+                                    </div>
+                                </a>
+                                <h2 class="m-2">crecimiento profesional</h2>
+                                <p class="redux">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate fugiat
+                                    delectus inventore animi ab. Iusto odit dignissimos, quae commodi iure consequatur
+                                    aliquam perferendis et eaque.</p>
+
+                            </div>
+                            <!-- end of customer -->
                         </div>
-                        <!-- end of customer -->
-                        <!-- customer -->
-                        <div id="template_news" class="tarjeta">
-                            <a href="#">
-                                <div class="img-box image-container">
-
-                                    <img src="" class="fit-image" alt="Programas de formación continua">
-
-                                </div>
-                            </a>
-                            <h2>Programas de formación continua</h2>
-                            <p class="redux">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate fugiat
-                                delectus inventore animi ab. Iusto odit dignissimos, quae commodi iure consequatur
-                                aliquam perferendis et eaque.</p>
-
-                        </div>
-                        <!-- end of customer -->
-                        <!-- customer -->
-                        <div id="template_news" class="tarjeta">
-                            <a href="#">
-                                <div class="img-box image-container">
-
-                                    <img src="" class="fit-image" alt="crecimiento profesional">
-
-                                </div>
-                            </a>
-                            <h2>crecimiento profesional</h2>
-                            <p class="redux">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate fugiat
-                                delectus inventore animi ab. Iusto odit dignissimos, quae commodi iure consequatur
-                                aliquam perferendis et eaque.</p>
-
-                        </div>
-                        <!-- end of customer -->
                     </div>
 
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                    
+
+                    <div class="row m-0">
+                        <div class="col-12 col-md-3 offset-md-1">
+                            <div class="accordion" id="j1">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                            aria-controls="panelsStayOpen-collapseOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne1" aria-expanded="false"
+                                            aria-controls="panelsStayOpen-collapseOne1">
                                             Beneficios
                                         </button>
                                     </h2>
-                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                    <div id="panelsStayOpen-collapseOne1" class="accordion-collapse collapse">
                                         <div class="accordion-body">
                                             <strong>This is the first item’s accordion body.</strong> Lorem ipsum dolor
                                             sit amet, consectetur adipisicing elit. Cupiditate fugiat
@@ -346,17 +261,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="col-12 col-md-3 offset-md-1">
+                            <div class="accordion" id="j2">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                            aria-controls="panelsStayOpen-collapseOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne2" aria-expanded="false"
+                                            aria-controls="panelsStayOpen-collapseOne2">
                                             Requisitos
                                         </button>
                                     </h2>
-                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                    <div id="panelsStayOpen-collapseOne2" class="accordion-collapse collapse">
                                         <div class="accordion-body">
                                             <strong>This is the first item’s accordion body.</strong> Lorem ipsum dolor
                                             sit amet, consectetur adipisicing elit. Cupiditate fugiat
@@ -368,17 +283,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="col-12 col-md-3 offset-md-1">
+                            <div class="accordion" id="j3">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                            aria-controls="panelsStayOpen-collapseOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne3" aria-expanded="false"
+                                            aria-controls="panelsStayOpen-collapseOne3">
                                             Proceso
                                         </button>
                                     </h2>
-                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                    <div id="panelsStayOpen-collapseOne3" class="accordion-collapse collapse">
                                         <div class="accordion-body">
                                             <strong>This is the first item’s accordion body.</strong> Lorem ipsum dolor
                                             sit amet, consectetur adipisicing elit. Cupiditate fugiat
@@ -395,71 +310,107 @@
             </div>
         </section>
 
-        <section id="contact" class="">
+        <section id="contact" class="contact">
             <div class="container">
-                <div class="card">
+                <div class="back-contact">
                     <div class="row">
-<<<<<<< Updated upstream
-                        <div class="col-12 col-md-6 text-center text-md-start">
-                            <h3>Conecta con Nosotros</h3>
-                            <p>Tu éxito es nuestra prioridad. Si deseas más información sobre nuestros productos,
-=======
                         <div class="col-12 col-md-5 text-center text-md-start">
                             <h3 class="efect">Conecta con Nosotros</h3>
                             <p class="efect my-3">Tu éxito es nuestra prioridad. Si deseas más información sobre nuestros productos,
->>>>>>> Stashed changes
                                 servicios o establecer una alianza comercial, contáctanos.</p>
                             <form>
                                 <div class="row">
                                     <div class="col-sm-12" id="result"></div>
-                                    <div class="col-12 col-md-5">
+                                    <div class="col-12 col-md-6 mt-3">
                                         <input type="text" name="userName" placeholder="Nombre" class="form-control"
                                             required="">
                                     </div>
 
-                                    <div class="col-12 col-md-5">
+                                    <div class="col-12 col-md-6 mt-3">
                                         <input type="text" name="lastName" placeholder="Apellido" class="form-control"
                                             required="">
                                     </div>
 
-                                    <div class="col-12 col-md-5">
+                                    <div class="col-12 col-md-6 mt-3">
                                         <input type="email" name="userEmail" placeholder="Email *" class="form-control"
                                             required="">
                                     </div>
 
-                                    <div class="col-12 col-md-5">
+                                    <div class="col-12 col-md-6 mt-3">
                                         <input type="number" name="phone" placeholder="Número de teléfono"
                                             class="form-control" required="">
                                     </div>
                                 </div>
 
+                                <div class="col-12 col-md-12 mt-3">
+                                    <textarea class="form-control" name="userMessage" placeholder="Mensaje" rows="6" required=""
+                                        spellcheck="false" data-ms-editor="true"></textarea>
 
+                                </div>
+
+                                <div class="col-12 col-md-12 mt-3">
+                                    <button type="submit" class="w-100 btn btn-primary">
+                                        Enviar
+                                    </button>
+                                </div>
+                             </form>
                         </div>
-<<<<<<< Updated upstream
-
-                        <div class="col-12 col-md-5">
-
-                        </div>
-                        <div class="col-12 col-md-7">
-                            <textarea class="form-control" name="userMessage" placeholder="Mensaje" rows="6" required=""
-                                spellcheck="false" data-ms-editor="true"></textarea>
-
-                        </div>
-                        </form>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div id="map"></div>
-                        <div>
-=======
                         <div class="col-12 col-md-6 offset-md-1">
                             <div id="map"></div>
->>>>>>> Stashed changes
                         </div>
                     </div>
+                    
                 </div>
         </section>
+
+        <div class="floating-sphere sphere-1">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+        <div class="floating-sphere sphere-2">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+        <div class="floating-sphere sphere-3">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+
+
+        <div class="floating-sphere sphere-4">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+        <div class="floating-sphere sphere-5">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+        <div class="floating-sphere sphere-6">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+
+
+        <div class="floating-sphere sphere-7">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+        <div class="floating-sphere sphere-8">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+        <div class="floating-sphere sphere-9">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+
+
+        <div class="floating-sphere sphere-10">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+        <div class="floating-sphere sphere-11">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+        <div class="floating-sphere sphere-12">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
+
+
     </div>
     <div class="ball"></div>
+
+    
     <?php
         require_once("footer.php");
     ?>

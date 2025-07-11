@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 async function initMap() {
   // Request needed libraries.
   const { Map } = await google.maps.importLibrary("maps");
@@ -30,4 +29,3 @@ async function initMap() {
 }
 
 initMap();
->>>>>>> Stashed changes

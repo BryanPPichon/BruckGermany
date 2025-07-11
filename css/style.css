@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Bebas_Neue';
-    src: url(../assets/fonts/Bebas_Neue/Bebas_Neue.ttf);
+    src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -329,12 +329,10 @@
     --chocolate: #60061a;
     --space: #222954;
     --prussian_blue: #243a57;
-<<<<<<< Updated upstream
-=======
     --bluey: #4B9DA6;
->>>>>>> Stashed changes
     --blue: #7df972;
     --white: #ffffff;
+    --white-trans: #FFFFFFCC;
     --font-main: "SourceSans3-Regular", "Montserrat-Regular", sans-serif;
     --font: "Bebas_Neue", "SourceSans3-Regular", Arial, Helvetica, sans-serif;
     --max-width: 1200px;
@@ -348,6 +346,7 @@
 html {
     box-sizing: border-box;
     font-family: var(--font-main);
+    color: var(--white);
     font-size: 16px;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -367,16 +366,6 @@ body {
 }
 
 .ball {
-<<<<<<< Updated upstream
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #FFFFFF66;
-  border-radius: 50%;
-  pointer-events: none;
-=======
     width: 50px;
     height: 50px;
     position: absolute;
@@ -386,7 +375,6 @@ body {
     border-radius: 50%;
     pointer-events: none;
     backdrop-filter: blur(2px);
->>>>>>> Stashed changes
 }
 
 a {
@@ -412,6 +400,7 @@ h2 {
     font-size: 3rem;
     font-weight: 400;
     font-family: var(--font);
+    color: var(--white);
 }
 
 h3 {
@@ -419,6 +408,7 @@ h3 {
     font-size: 1.5rem;
     font-weight: 400;
     font-family: var(--font);
+    color: var(--white);
 }
 
 h4 {
@@ -426,6 +416,7 @@ h4 {
     font-size: .75rem;
     font-weight: 700;
     font-family: var(--font-main);
+    color: var(--white);
 }
 
 h5 {
@@ -433,6 +424,7 @@ h5 {
     font-size: 2.5rem;
     font-weight: 400;
     font-family: var(--font);
+    color: var(--white);
 }
 
 h6 {
@@ -440,6 +432,7 @@ h6 {
     font-size: 0.7rem;
     font-weight: 600;
     font-family: var(--font-main);
+    color: var(--white);
 }
 
 img {
@@ -453,8 +446,6 @@ p {
     margin: 0;
 }
 
-<<<<<<< Updated upstream
-=======
 ul {
     list-style: none;
 }
@@ -473,8 +464,6 @@ li {
         font-size: 1.15rem;
     }
 }
-
->>>>>>> Stashed changes
 /***********************************************************************************/
 /*********************************** Components ************************************/
 /***********************************************************************************/
@@ -627,9 +616,6 @@ li {
     height: auto;
     width: 100vw;
     color: var(--white);
-<<<<<<< Updated upstream
-    background-color: var(--dark-blue);
-=======
 }
 
 .footer h3 {
@@ -714,7 +700,6 @@ li {
 
 .footer hr {
     margin-top: 5rem;
->>>>>>> Stashed changes
 }
 
 .footer>.container {
@@ -891,21 +876,7 @@ li {
     max-height: 100%;
 }
 
-<<<<<<< Updated upstream
-/* .header-overlay{
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    z-index: 1;
-} */
-
-.header-content{
-=======
 .header-content {
->>>>>>> Stashed changes
     z-index: 2;
     color: var(--light-text-color);
     display: grid;
@@ -1288,22 +1259,12 @@ li {
 .btn {
     padding: 0.75rem;
     display: inline-block;
-    width: 100%;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     color: var(--white);
-    border-radius: 25px;
     border: none;
-    margin-top: 70px;
-    background: rgb(125,249,114);
-    background: linear-gradient(90deg, rgba(125,249,114,1) 18%, rgba(43,170,203,1) 96%);
-}
-
-@media screen and (min-width:1024px ){
-    .btn{
-        width: 200px;
-    }
+    background: linear-gradient(90deg, #920022 0%, #DA0032 117.18%);
 }
 
 .container {
@@ -1419,18 +1380,6 @@ li {
 
 /********************************************************************************/
 .container-loader {
-<<<<<<< Updated upstream
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  z-index: 900;
-=======
     position: fixed;
     top: 0;
     left: 0;
@@ -1443,21 +1392,9 @@ li {
     z-index: 100000000;
     overflow: hidden;
     transition: opacity 0.5s ease-out;
->>>>>>> Stashed changes
 }
 
 .loader {
-<<<<<<< Updated upstream
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  background-color: #000000;
-  width: 100%;
-  height: 100%;
-  padding: 0 5vw;
-=======
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1467,7 +1404,6 @@ li {
     width: 100%;
     height: 100%;
     padding: 0 5vw;
->>>>>>> Stashed changes
 }
 
 .container-bar {
@@ -1492,6 +1428,7 @@ li {
     border: 1px solid #FFFFFF;
     padding: 10px;
 }
+
 .loader h1 {
     writing-mode: vertical-lr;
     text-orientation: upright;
@@ -1507,17 +1444,11 @@ li {
 }
 
 #percent {
-<<<<<<< Updated upstream
-  color: white;
-  margin: 30px 0 0 0;
-  font-size: 15px;
-=======
     font-family: var(--font);
     color: var(--white-trans);
     font-style: 700;
     margin: 30px 0 0 0;
     font-size: 4.5rem;
->>>>>>> Stashed changes
 }
 
 #bar {
@@ -1532,18 +1463,6 @@ li {
 /***********************************************************************************/
 
 /************************************** A **************************************/
-<<<<<<< Updated upstream
-#about .content {
-    display: flex;
-    align-items: center; 
-    height: 75vh; 
-    font-family: var(--font-main);
-}
-
-#about img {
-    max-width: 100%; 
-    height: auto; 
-=======
 #aboutus .container{
     min-height: 100vh;
     position: relative;
@@ -1587,8 +1506,6 @@ li {
     letter-spacing: 0;
 }
 
-
-
 #adn {
     position: relative;
 }
@@ -1602,28 +1519,16 @@ li {
     max-width: 100%;
     width: 75%;
     height: auto;
->>>>>>> Stashed changes
     margin-left: 0;
     padding-left: 0;
     position: relative;
 }
-<<<<<<< Updated upstream
-.about-text-content{
-=======
 
 .adn-text-container {
->>>>>>> Stashed changes
     color: white;
     text-align: right;
     margin-left: 20rem;
 }
-<<<<<<< Updated upstream
-#about .boton{
-    text-align: right;
-}
-@media screen and (max-width:576px ) {
-    .about-text-content{
-=======
 
 #adn .boton {
     text-align: right;
@@ -1642,13 +1547,14 @@ li {
     font-weight: 400;
     letter-spacing: 0;
     font-family: var(--font);
+    color: var(--white-trans);
 }
 
 #adn .car {
     position: absolute;
     top: 4rem;
     right: -105rem;
-    z-index: -1;
+    z-index: 3;
 }
 
 .accordion-button {
@@ -1686,8 +1592,6 @@ li {
     box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
 }
 
-
-
 .arrow-scroll {
     animation: pulse 2s infinite;
 }
@@ -1707,38 +1611,18 @@ li {
 }
 
 @media screen and (max-width:576px) {
-
-    #adn .car {
-        top: 8rem;
-        right: -40rem;
-        z-index: 5;
-        margin-top: 10%;
-        margin-left: 26%;
-    }
-
     .adn-text-container {
->>>>>>> Stashed changes
         margin-left: 0;
         /* font-size: 0.75rem; */
         padding: 0px 65px;
     }
-<<<<<<< Updated upstream
-    #about .boton{
-=======
 
     #adn .boton {
->>>>>>> Stashed changes
         width: 50%;
         left: 30%;
         position: relative;
         top: -10%;
     }
-<<<<<<< Updated upstream
-    #about p.nosotros{
-        font-size: 40px;
-    }
-    #about p.conoce-sobre , #about p.nosotros{
-=======
 
     #adn p.nosotros {
         font-size: 40px;
@@ -1746,39 +1630,41 @@ li {
 
     #adn p.conoce-sobre,
     #adn p.nosotros {
->>>>>>> Stashed changes
         text-align: center;
+    }
+
+    #adn img {
+        width: 25%;
+    }
+
+    #adn .car {
+        top: 20rem;
+        right: -140rem;
+    }
+
+    .aboutus h1 {
+        font-size: 3rem;
+    }
+
+    .aboutus p {
+        font-size: 1.15rem;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
-<<<<<<< Updated upstream
-    .about-text-content{
-=======
     .adn-text-container {
->>>>>>> Stashed changes
         margin-left: 0;
         /* font-size: 0.75rem; */
         padding: 0px 65px;
         margin-right: 10%;
     }
-<<<<<<< Updated upstream
-    #about .boton{
-=======
 
     #adn .boton {
->>>>>>> Stashed changes
         width: 40%;
         left: 30%;
         position: relative;
         top: -10%;
     }
-<<<<<<< Updated upstream
-    #about p.nosotros{
-        font-size: 40px;
-    }
-    #about p.conoce-sobre , #about p.nosotros{
-=======
 
     #adn p.nosotros {
         font-size: 40px;
@@ -1786,44 +1672,25 @@ li {
 
     #adn p.conoce-sobre,
     #adn p.nosotros {
->>>>>>> Stashed changes
         text-align: right;
         margin-right: 20%;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-<<<<<<< Updated upstream
-    .about-text-content{
-=======
     .adn-text-container {
->>>>>>> Stashed changes
         margin-left: 0;
         font-size: 1rem;
         padding: 0px 25px;
         /* margin-right: 10%; */
     }
-<<<<<<< Updated upstream
-    #about .boton{
-=======
 
     #adn .boton {
->>>>>>> Stashed changes
         width: 40%;
         left: 30%;
         position: relative;
         top: -10%;
     }
-<<<<<<< Updated upstream
-    #about p.nosotros{
-        font-size: 40px;
-    }
-    #about p.conoce-sobre , #about p.nosotros{
-        text-align: right;
-        margin-right: 20%;
-    }
-    #about img {
-=======
 
     #adn p.nosotros {
         font-size: 40px;
@@ -1836,7 +1703,6 @@ li {
     }
 
     #adn img {
->>>>>>> Stashed changes
         top: 45%;
     }
 }
@@ -1904,11 +1770,7 @@ li {
     box-sizing: border-box;
 }
 
-
-
 /************************************** C **************************************/
-<<<<<<< Updated upstream
-=======
 
 
 .carrers {
@@ -1924,7 +1786,8 @@ li {
     font-family: var(--font);
 }
 
->>>>>>> Stashed changes
+
+
 .cLcbjv {
     opacity: 1;
     display: none !important;
@@ -2000,23 +1863,6 @@ li {
     text-align: center;
 }
 
-<<<<<<< Updated upstream
-.contact h1{
-    color: var(--dark-blue);
-    text-shadow: none;
-    font-weight: 700;
-    letter-spacing: 3px;
-    margin: 15px 0 30px 0;
-    font-style: italic;
-    font-size: 3.5rem;
-}
-.contact{
-    background-image: linear-gradient(rgb(0 0 0 / 19%), rgb(0 0 0 / 43%)), url(../img/contactback.jpg);
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 90vh;
-=======
 .contact h3 {
     color: var(--white);
     font-family: var(--font);
@@ -2036,9 +1882,7 @@ li {
 
 .contact {
     margin: 10rem 0;
->>>>>>> Stashed changes
     width: 100%;
-    transform: scaleX(-1);
 }
 
 .contact_form {
@@ -2077,10 +1921,6 @@ li {
         width: 100%;
     }
 
-    .contact {
-        height: 85vh;
-    }
-
     .category p.productos {
         font-size: 40px;
     }
@@ -2095,8 +1935,12 @@ li {
         width: 95%;
     }
 
-    .contact h1 {
+    .contact h3 {
         font-size: 2rem;
+    }
+
+    .back-contact {
+        padding: 25px;
     }
 
     .contact .boton {
@@ -2277,9 +2121,6 @@ header>.container {
     font-size: 1.25rem;
     line-height: normal;
 }
-<<<<<<< Updated upstream
-#home .container{
-=======
 
 .headdown p {
     font-weight: 400;
@@ -2296,7 +2137,6 @@ header>.container {
 }
 
 #home .container {
->>>>>>> Stashed changes
     padding: 0 !important;
 }
 
@@ -2565,22 +2405,12 @@ h1.empresa-mexicana {
 }
 
 /************************************** I **************************************/
-<<<<<<< Updated upstream
-input{
-	width: 320px;
-    height: 29px;
-    padding-left: 10px;
-    margin-bottom: 3px;
-    border: none;
-    background-color: var(--gray);
-=======
 input {
     min-height: 3rem;
     padding-left: 10px !important;
     margin-bottom: 3px !important;
     border: 1px solid #FFFFFF33 !important;
     background-color: var(--white-trans) !important;
->>>>>>> Stashed changes
 }
 
 .information .container {
@@ -2745,10 +2575,10 @@ input {
 
 /************************************** M **************************************/
 .main {
-    /* background-image: url(../img/Hue_Sat.png), url(../img/Hue_Sath.png);
+    background-image: url(../img/Hue_Sat.png), url(../img/Hue_Sath.png);
     background-repeat: no-repeat, no-repeat;
     background-position: 65% -90%, -29% 98%;
-    background-size: 200%, 200%; */
+    background-size: 200%, 200%;
 }
 
 .mini h6 {
@@ -2766,14 +2596,11 @@ input {
     text-shadow: none;
 }
 
-<<<<<<< Updated upstream
-=======
 #map {
     height: 100%;
     width: 100%;
 }
 
->>>>>>> Stashed changes
 /************************************** N **************************************/
 .navbar {
     background-color: rgba(21, 19, 21, 0.03);
@@ -2788,10 +2615,6 @@ input {
     left: 0;
     z-index: 5;
     transition: all 1.5s ease-in-out;
-<<<<<<< Updated upstream
-  }
-  .navbar-nav{
-=======
     max-height: 90px;
     transition: opacity 0.9s ease-in-out;
     opacity: 0;
@@ -2812,25 +2635,11 @@ input {
 }
 
 .navbar-nav {
->>>>>>> Stashed changes
     margin-left: auto;
 }
 
 .scroll {
     background-color: rgb(0, 0, 0);
-<<<<<<< Updated upstream
-  }
-  .navbar-brand img {
-    max-height: 112px;
-  }
-  .navbar-toggler {
-    border-color: rgba(255, 255, 255, 0.1); 
-  }
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%287255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
-  }
-  .navbar-fixed-top.scrolled {
-=======
 }
 
 .navbar-brand img {
@@ -2847,26 +2656,12 @@ input {
 }
 
 .navbar-fixed-top.scrolled {
->>>>>>> Stashed changes
     background-color: #000 !important;
     transition: background-color 200ms linear;
 }
 
 a.nav-link:hover {
     color: white;
-<<<<<<< Updated upstream
-  }
-  
-  .dropdown-menu {
-      background-color: rgba(21, 19, 21, 0.03);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    border-bottom: 1px solid rgba(51, 55, 65, 1);
-  }
-  
-  .dropdown-item:focus, .dropdown-item:hover {
-        background-color : var(--space);
-=======
 }
 
 .dropdown-menu {
@@ -2890,12 +2685,11 @@ a.nav-link:hover {
 @media screen and (max-width:576px) {
     .navbar-nav {
         margin-left: auto;
-        background-color: rgba(21, 19, 21, 0.7);
+        background-color: rgba(21, 19, 21, 0.8);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
         border-bottom: 1px solid rgba(51, 55, 65, 1);
         margin: 32px auto;
->>>>>>> Stashed changes
     }
 
     .dropdown-menu {
@@ -2963,8 +2757,6 @@ a.nav-link:hover {
     pointer-events: none;
     transition: ease opacity 300ms 100ms;
 }
-<<<<<<< Updated upstream
-=======
 
 .over {
     position: absolute;
@@ -3054,7 +2846,6 @@ a.nav-link:hover {
 
 @media screen and (min-width:1441px) {}
 
->>>>>>> Stashed changes
 /************************************** P **************************************/
 .pleca {
     background-color: transparent !important;
@@ -3112,17 +2903,14 @@ p.productos {
     font-style: italic;
     font-family: var(--font-main);
 }
-<<<<<<< Updated upstream
-=======
 
 .partners #people {
     height: 100vh;
 }
 
-.partners #listvalue {
-    /* height: 100vh;*/
+.partners {
     margin: 15rem 0;
-} 
+}
 
 .partners h1 {
     font-size: 5.3rem;
@@ -3144,6 +2932,7 @@ p.productos {
     width: 25%;
     border-bottom: 5px solid var(--crimson);
 }
+
 
 .partners li {
     font-weight: 400;
@@ -3217,7 +3006,6 @@ img:nth-child(8) {
     margin: 20% 0;
 }
 
->>>>>>> Stashed changes
 h1.comprometidos {
     text-align: center;
     font-size: 24px;
@@ -3269,7 +3057,7 @@ p.conoce-sobre {
     }
 
     .partners #listvalue {
-        height: 300vh;
+        height: 150vh;
     }
 
     .partners h1 {
@@ -3376,8 +3164,81 @@ p.conoce-sobre {
 }
 
 /************************************** S **************************************/
-<<<<<<< Updated upstream
-=======
+.floating-sphere {
+        position: absolute;
+        z-index: -1;
+    }
+
+    .floating-sphere .sphere-image {
+        max-width: 100px;
+        max-height: 100px;
+        width: 100%;
+        height: auto;
+        opacity: 0.6;
+    }
+
+    .sphere-1 {
+        top: 170%;
+        left: 10%;
+    }
+
+    .sphere-2 {
+        top: 200%;
+        right: 15%;
+    }
+
+    .sphere-3 {
+        top: 180%;
+        left: 50%;
+    }
+
+    .sphere-4 {
+        top: 1020%;
+        left: 10%;
+    }
+
+    .sphere-5 {
+        top: 1050%;
+        right: 15%;
+    }
+
+    .sphere-6 {
+        top: 1030%;
+        left: 50%;
+    }
+
+
+    .sphere-7 {
+        top: 520%;
+        left: 10%;
+    }
+
+    .sphere-8 {
+        top: 550%;
+        right: 15%;
+    }
+
+    .sphere-9 {
+        top: 530%;
+        left: 50%;
+    }
+
+
+    .sphere-10 {
+        top: 820%;
+        left: 10%;
+    }
+
+    .sphere-11 {
+        top: 890%;
+        right: 15%;
+    }
+
+    .sphere-12 {
+        top: 830%;
+        left: 50%;
+    }
+
 .scroll-down {
     position: absolute;
     bottom: 4%;
@@ -3385,7 +3246,6 @@ p.conoce-sobre {
     width: 100%;
 }
 
->>>>>>> Stashed changes
 #services .owl-item.active.center {
     -webkit-transform: scale(1.8);
     transform: scale(1.8);
@@ -3627,10 +3487,6 @@ section#information {
 }
 
 /************************************** T **************************************/
-<<<<<<< Updated upstream
-.thumb-info.thumb-info-swap-content .thumb-info-swap-content-wrapper > * {
-	transition: cubic-bezier(0.55, 0, 0.1, 1) all 300ms;
-=======
 .tarjeta {
     min-height: 600px;
     background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
@@ -3710,7 +3566,6 @@ textarea {
 
 .thumb-info.thumb-info-swap-content .thumb-info-swap-content-wrapper>* {
     transition: cubic-bezier(0.55, 0, 0.1, 1) all 300ms;
->>>>>>> Stashed changes
 }
 
 .thumb-info.thumb-info-swap-content .thumb-info-swap-content-wrapper> :nth-child(1) {
@@ -3808,28 +3663,6 @@ textarea {
     display: block;
     position: relative;
 }
-<<<<<<< Updated upstream
-textarea{
-    width: 320px;
-    height: 45px;
-    border-radius: 5px;  
-    margin-top: 10px;  
-    padding-left: 10px;
-    margin-bottom: 3px; 
-    padding-top: 15px; 
-    border: none;
-    background-color: var(--gray);
-  }
-/************************************** U **************************************/
-/************************************** V **************************************/
-.vid-bg{
-	right: 0;
-	bottom: 0;
-	min-width: 100%;
-	min-height: 100%;
-}
-
-=======
 
 .titleSection {
     color: var(--white-trans);
@@ -3846,8 +3679,21 @@ textarea{
 }
 
 @media screen and (max-width:576px) {
+    .card__content img {
+        width: 210px;
+    }
+
+    .tech h5 {
+        font-size: 1.3rem;
+    }
+
+    .tech h5::after {
+        width: 60%;
+    }
+
     .tech p {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        line-height: normal;
     }
 }
 
@@ -3937,11 +3783,10 @@ textarea{
     align-items: center;
     backdrop-filter: blur(2px);
 }
->>>>>>> Stashed changes
 
 @media screen and (max-width:576px) {
     .values .container {
-        height: 200vh;
+        height: 400vh;
     }
 
     .values{
@@ -4012,63 +3857,4 @@ textarea{
 
 /************************************** X **************************************/
 /************************************** Y **************************************/
-<<<<<<< Updated upstream
 /************************************** Z **************************************/
-
-@media screen and (min-width:768px ) {
-    
-}
-
-@media screen and (min-width:1024px ) {
-    h1{
-        margin: 0;
-        font-size: 3rem;
-    }
-
-    /* .header{
-        position: sticky;
-        top: 0;
-        padding: 1rem;
-        height: calc(var(--header-height) + 2rem );
-    } */
-
-    .header-content > div p{
-        font-size: 1.5rem;
-        letter-spacing: inherit;
-        word-spacing: inherit;
-        line-height: inherit;
-        text-align: left;
-        font-weight: bold;
-        text-shadow: 2px 2px 3px black;
-    }
-    
-}
-@media (max-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1320px;
-    }
-}
-@media (max-width: 1200px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
-        max-width: 1140px;
-    }
-}
-
-@media (max-width: 992px) {
-    .container, .container-lg, .container-md, .container-sm {
-        max-width: 960px;
-    }
-}
-@media (max-width: 768px) {
-    .container, .container-md, .container-sm {
-        max-width: 720px;
-    }
-}
-@media (max-width: 576px) {
-    .container, .container-sm {
-        max-width: 540px;
-    }
-} 
-=======
-/************************************** Z **************************************/
->>>>>>> Stashed changes
