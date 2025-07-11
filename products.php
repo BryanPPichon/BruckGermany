@@ -14,223 +14,242 @@
     ?>
     <section id="products" class="products-section">
         <div class="container-fluid">
-            <!-- Slide inicial - Presentación -->
-            <div class="product-slide intro-slide" id="slide-0">
-                <div class="row align-items-center min-vh-100">
-                    <!-- Imagen de la izquierda -->
-                    <div class="col-auto p-0">
-                        <div class="intro-image-container">
-                            <img src="img/0nuestros-productos.png" alt="Nuestros Productos"
-                                class="img-fluid intro-main-image">
-                        </div>
-                    </div>
-
-                    <!-- Contenido de la derecha -->
-                    <div class="col d-flex align-items-center">
-                        <div class="intro-content">
-                            <h2 class="intro-title">CONOCE<br>NUESTROS PRODUCTOS</h2>
-                            <p class="intro-subtitle">"Innovations for driver safety"</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Título centrado -->
-            <div class="row">
+            <!-- Título centrado - Movido arriba de todos los slides -->
+            <div class="row title-row">
                 <div class="col-12">
                     <h1 class="product-title"><img src="img/Bruck_icon.png" alt="Bruck Icon" class="bruck-icon">
                         NUESTRAS AUTOPARTES</h1>
                 </div>
             </div>
 
-            <!-- Primera sección - Colisión e Interiores -->
-            <div class="product-slide" id="slide-1">
-                <div class="row align-items-center min-vh-100">
-                    <!-- Imagen de la izquierda -->
-                    <div class="col-auto p-0">
-                        <div class="product-image-container">
-                            <img src="img/Colision_Interiores.png" alt="Colisión e Interiores"
-                                class="img-fluid product-main-image">
+            <!-- Slides container -->
+            <div class="slides-container">
+                <!-- Slide inicial - Presentación -->
+                <div class="product-slide intro-slide" id="slide-0">
+                    <div class="row align-items-center min-vh-100">
+                        <!-- Imagen de la izquierda -->
+                        <div class="col-auto p-0">
+                            <div class="intro-image-container">
+                                <img src="img/0nuestros-productos.png" alt="Nuestros Productos"
+                                    class="img-fluid intro-main-image">
+                            </div>
+                        </div>
+
+                        <!-- Contenido de la derecha -->
+                        <div class="col d-flex align-items-center">
+                            <div class="intro-content">
+                                <h2 class="intro-title">CONOCE<br>NUESTROS PRODUCTOS</h2>
+                                <p class="intro-subtitle">"Innovations for driver safety"</p>
+                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Contenido de la derecha -->
-                    <div class="col d-flex align-items-center">
-                        <div class="product-content">
-                            <div class="product-content-card">
-                                <h2 class="product-card-title">COLISIÓN E INTERIORES</h2>
+                <!-- Primera sección - Colisión e Interiores -->
+                <div class="product-slide" id="slide-1">
+                    <div class="row align-items-center min-vh-100">
+                        <!-- Imagen de la izquierda -->
+                        <div class="col-auto p-0">
+                            <div class="product-image-container">
+                                <img src="img/Colision_Interiores.png" alt="Colisión e Interiores"
+                                    class="img-fluid product-main-image">
+                            </div>
+                        </div>
 
-                                <p class="product-description">
-                                    Nuestras autopartes de colisión e interiores están diseñadas con
-                                    los mejores materiales, altos estándares de calidad y están
-                                    homologadas con equipo original para garantizar su ensamblaje.
-                                </p>
+                        <!-- Contenido de la derecha -->
+                        <div class="col d-flex align-items-center">
+                            <div class="product-content">
+                                <div class="product-content-card">
+                                    <h2 class="product-card-title">COLISIÓN E INTERIORES</h2>
 
-                                <div class="product-buttons">
-                                    <button class="btn btn-outline-light btn-conoce">Conoce más</button>
-                                    <button class="btn btn-danger btn-descargar">Descargar</button>
+                                    <p class="product-description">
+                                        Nuestras autopartes de colisión e interiores están diseñadas con
+                                        los mejores materiales, altos estándares de calidad y están
+                                        homologadas con equipo original para garantizar su ensamblaje.
+                                    </p>
+
+                                    <div class="product-buttons">
+                                        <button class="btn btn-outline-light btn-conoce"
+                                            onclick="window.open('https://bruck.com.mx/Search/Index?q=COLISION&ms=Index', '_blank')">Conoce
+                                            más</button>
+                                        <button class="btn btn-danger btn-descargar"
+                                            onclick="window.open('pdf/CAT_COLISION_2025.pdf', '_blank')">Descargar</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Segunda sección - Electrónico -->
-            <div class="product-slide" id="slide-2">
-                <div class="row align-items-center min-vh-100">
-                    <!-- Imagen de la izquierda -->
-                    <div class="col-auto p-0">
-                        <div class="product-image-container">
-                            <img src="img/Electrico.png" alt="Electrónico" class="img-fluid product-main-image">
+                <!-- Segunda sección - Electrónico -->
+                <div class="product-slide" id="slide-2">
+                    <div class="row align-items-center min-vh-100">
+                        <!-- Imagen de la izquierda -->
+                        <div class="col-auto p-0">
+                            <div class="product-image-container">
+                                <img src="img/Electrico.png" alt="Electrónico" class="img-fluid product-main-image">
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Contenido de la derecha -->
-                    <div class="col d-flex align-items-center">
-                        <div class="product-content">
-                            <div class="product-content-card">
-                                <h2 class="product-card-title">ELÉCTRICO</h2>
+                        <!-- Contenido de la derecha -->
+                        <div class="col d-flex align-items-center">
+                            <div class="product-content">
+                                <div class="product-content-card">
+                                    <h2 class="product-card-title">ELÉCTRICO</h2>
 
-                                <p class="product-description">
-                                    Nuestras autopartes de colisión e interiores están diseñadas con
-                                    los mejores materiales, altos estándares de calidad y están
-                                    homologadas con equipo original para garantizar su ensamblaje.
-                                </p>
+                                    <p class="product-description">
+                                        Nuestras autopartes de colisión e interiores están diseñadas con
+                                        los mejores materiales, altos estándares de calidad y están
+                                        homologadas con equipo original para garantizar su ensamblaje.
+                                    </p>
 
-                                <div class="product-buttons">
-                                    <button class="btn btn-outline-light btn-conoce">Conoce más</button>
-                                    <button class="btn btn-danger btn-descargar">Descargar</button>
+                                    <div class="product-buttons">
+                                        <button class="btn btn-outline-light btn-conoce"
+                                            onclick="window.open('https://bruck.com.mx/Search/Index?q=ELECTRICO&ms=Index', '_blank')">Conoce
+                                            más</button>
+                                        <button class="btn btn-danger btn-descargar"
+                                            onclick="window.open('pdf/CAT_ELECTRICO_2025.pdf', '_blank')">Descargar</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Tercera sección - Frenos y Clutch -->
-            <div class="product-slide" id="slide-3">
-                <div class="row align-items-center min-vh-100">
-                    <!-- Imagen de la izquierda -->
-                    <div class="col-auto p-0">
-                        <div class="product-image-container">
-                            <img src="img/Frenos_clutch.png" alt="Frenos y Clutch" class="img-fluid product-main-image">
+                <!-- Tercera sección - Frenos y Clutch -->
+                <div class="product-slide" id="slide-3">
+                    <div class="row align-items-center min-vh-100">
+                        <!-- Imagen de la izquierda -->
+                        <div class="col-auto p-0">
+                            <div class="product-image-container">
+                                <img src="img/Frenos_clutch.png" alt="Frenos y Clutch"
+                                    class="img-fluid product-main-image">
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Contenido de la derecha -->
-                    <div class="col d-flex align-items-center">
-                        <div class="product-content">
-                            <div class="product-content-card">
-                                <h2 class="product-card-title">FRENOS Y CLUTCH</h2>
+                        <!-- Contenido de la derecha -->
+                        <div class="col d-flex align-items-center">
+                            <div class="product-content">
+                                <div class="product-content-card">
+                                    <h2 class="product-card-title">FRENOS Y CLUTCH</h2>
 
-                                <p class="product-description">
-                                    Nuestras autopartes de colisión e interiores están diseñadas con
-                                    los mejores materiales, altos estándares de calidad y están
-                                    homologadas con equipo original para garantizar su ensamblaje.
-                                </p>
+                                    <p class="product-description">
+                                        Nuestras autopartes de colisión e interiores están diseñadas con
+                                        los mejores materiales, altos estándares de calidad y están
+                                        homologadas con equipo original para garantizar su ensamblaje.
+                                    </p>
 
-                                <div class="product-buttons">
-                                    <button class="btn btn-outline-light btn-conoce">Conoce más</button>
-                                    <button class="btn btn-danger btn-descargar">Descargar</button>
+                                    <div class="product-buttons">
+                                        <button class="btn btn-outline-light btn-conoce"
+                                            onclick="window.open('https://bruck.com.mx/Search/Index?q=FRENOS%20Y%20CLUTCH&ms=Index', '_blank')">Conoce
+                                            más</button>
+                                        <button class="btn btn-danger btn-descargar"
+                                            onclick="window.open('pdf/CAT_FRENOS_2025.pdf', '_blank')">Descargar</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Cuarta sección - Motor -->
-            <div class="product-slide" id="slide-4">
-                <div class="row align-items-center min-vh-100">
-                    <!-- Imagen de la izquierda -->
-                    <div class="col-auto p-0">
-                        <div class="product-image-container">
-                            <img src="img/motor.png" alt="Motor" class="img-fluid product-main-image">
+                <!-- Cuarta sección - Motor -->
+                <div class="product-slide" id="slide-4">
+                    <div class="row align-items-center min-vh-100">
+                        <!-- Imagen de la izquierda -->
+                        <div class="col-auto p-0">
+                            <div class="product-image-container">
+                                <img src="img/motor.png" alt="Motor" class="img-fluid product-main-image">
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Contenido de la derecha -->
-                    <div class="col d-flex align-items-center">
-                        <div class="product-content">
-                            <div class="product-content-card">
-                                <h2 class="product-card-title">MOTOR</h2>
+                        <!-- Contenido de la derecha -->
+                        <div class="col d-flex align-items-center">
+                            <div class="product-content">
+                                <div class="product-content-card">
+                                    <h2 class="product-card-title">MOTOR</h2>
 
-                                <p class="product-description">
-                                    Nuestras autopartes de colisión e interiores están diseñadas con
-                                    los mejores materiales, altos estándares de calidad y están
-                                    homologadas con equipo original para garantizar su ensamblaje.
-                                </p>
+                                    <p class="product-description">
+                                        Nuestras autopartes de colisión e interiores están diseñadas con
+                                        los mejores materiales, altos estándares de calidad y están
+                                        homologadas con equipo original para garantizar su ensamblaje.
+                                    </p>
 
-                                <div class="product-buttons">
-                                    <button class="btn btn-outline-light btn-conoce">Conoce más</button>
-                                    <button class="btn btn-danger btn-descargar">Descargar</button>
+                                    <div class="product-buttons">
+                                        <button class="btn btn-outline-light btn-conoce"
+                                            onclick="window.open('https://bruck.com.mx/Search/Index?q=MOTOR&ms=Index', '_blank')">Conoce
+                                            más</button>
+                                        <button class="btn btn-danger btn-descargar"
+                                            onclick="window.open('pdf/CAT_MOTOR_2025.pdf', '_blank')">Descargar</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Quinta sección - Suspensión y Dirección -->
-            <div class="product-slide" id="slide-5">
-                <div class="row align-items-center min-vh-100">
-                    <!-- Imagen de la izquierda -->
-                    <div class="col-auto p-0">
-                        <div class="product-image-container">
-                            <img src="img/Suspension_direccion.png" alt="Suspensión y Dirección"
-                                class="img-fluid product-main-image">
+                <!-- Quinta sección - Suspensión y Dirección -->
+                <div class="product-slide" id="slide-5">
+                    <div class="row align-items-center min-vh-100">
+                        <!-- Imagen de la izquierda -->
+                        <div class="col-auto p-0">
+                            <div class="product-image-container">
+                                <img src="img/Suspension_direccion.png" alt="Suspensión y Dirección"
+                                    class="img-fluid product-main-image">
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Contenido de la derecha -->
-                    <div class="col d-flex align-items-center">
-                        <div class="product-content">
-                            <div class="product-content-card">
-                                <h2 class="product-card-title">SUSPENSIÓN Y DIRECCIÓN</h2>
+                        <!-- Contenido de la derecha -->
+                        <div class="col d-flex align-items-center">
+                            <div class="product-content">
+                                <div class="product-content-card">
+                                    <h2 class="product-card-title">SUSPENSIÓN Y DIRECCIÓN</h2>
 
-                                <p class="product-description">
-                                    Nuestras autopartes de colisión e interiores están diseñadas con
-                                    los mejores materiales, altos estándares de calidad y están
-                                    homologadas con equipo original para garantizar su ensamblaje.
-                                </p>
+                                    <p class="product-description">
+                                        Nuestras autopartes de colisión e interiores están diseñadas con
+                                        los mejores materiales, altos estándares de calidad y están
+                                        homologadas con equipo original para garantizar su ensamblaje.
+                                    </p>
 
-                                <div class="product-buttons">
-                                    <button class="btn btn-outline-light btn-conoce">Conoce más</button>
-                                    <button class="btn btn-danger btn-descargar">Descargar</button>
+                                    <div class="product-buttons">
+                                        <button class="btn btn-outline-light btn-conoce"
+                                            onclick="window.open('https://bruck.com.mx/Search/Index?q=SUSPENSION&ms=Index', '_blank')">Conoce
+                                            más</button>
+                                        <button class="btn btn-danger btn-descargar"
+                                            onclick="window.open('pdf/CAT_SUSPENSION_2025.pdf', '_blank')">Descargar</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Sexta sección - Amortiguadores -->
-            <div class="product-slide" id="slide-6">
-                <div class="row align-items-center min-vh-100">
-                    <!-- Imagen de la izquierda -->
-                    <div class="col-auto p-0">
-                        <div class="product-image-container">
-                            <img src="img/0amortiguadores.png" alt="Amortiguadores"
-                                class="img-fluid product-main-image rotated-amortiguadores">
+                <!-- Sexta sección - Amortiguadores -->
+                <div class="product-slide" id="slide-6">
+                    <div class="row align-items-center min-vh-100">
+                        <!-- Imagen de la izquierda -->
+                        <div class="col-auto p-0">
+                            <div class="product-image-container">
+                                <img src="img/amortiguadores.png" alt="Amortiguadores"
+                                    class="img-fluid product-main-image rotated-amortiguadores">
+                            </div>
                         </div>
-                    </div>
 
-                    <!-- Contenido de la derecha -->
-                    <div class="col d-flex align-items-center">
-                        <div class="product-content">
-                            <div class="product-content-card">
-                                <h2 class="product-card-title">AMORTIGUADORES</h2>
+                        <!-- Contenido de la derecha -->
+                        <div class="col d-flex align-items-center">
+                            <div class="product-content">
+                                <div class="product-content-card">
+                                    <h2 class="product-card-title">AMORTIGUADORES</h2>
 
-                                <p class="product-description">
-                                    Nuestras autopartes de colisión e interiores están diseñadas con
-                                    los mejores materiales, altos estándares de calidad y están
-                                    homologadas con equipo original para garantizar su ensamblaje.
-                                </p>
+                                    <p class="product-description">
+                                        Nuestras autopartes de colisión e interiores están diseñadas con
+                                        los mejores materiales, altos estándares de calidad y están
+                                        homologadas con equipo original para garantizar su ensamblaje.
+                                    </p>
 
-                                <div class="product-buttons">
-                                    <button class="btn btn-outline-light btn-conoce">Conoce más</button>
-                                    <button class="btn btn-danger btn-descargar">Descargar</button>
+                                    <div class="product-buttons">
+                                        <button class="btn btn-outline-light btn-conoce">Conoce más</button>
+                                        <button class="btn btn-danger btn-descargar">Descargar</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -246,14 +265,44 @@
         <div class="floating-sphere sphere-2">
             <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
         </div>
+        <div class="floating-sphere sphere-3">
+            <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
+        </div>
     </section>
 
     <style>
     .products-section {
         background: linear-gradient(135deg, #1a2332 0%, #2d3748 50%, #1a2332 100%);
         position: relative;
-        overflow: hidden;
+        overflow: hidden !important;
         min-height: 100vh;
+    }
+
+    .title-row {
+        position: relative;
+        padding-top: 12vh;
+        margin-bottom: -12vh;
+    }
+
+    .product-title {
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        margin: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .product-title.show {
+        opacity: 1;
+    }
+
+    .slides-container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
     }
 
     .product-slide {
@@ -380,12 +429,13 @@
     .product-main-image {
         height: 78vh;
         width: auto;
-        object-fit: contain;
+        object-fit: cover;
         align-self: flex-end;
     }
 
-    .product-main-image.rotated-amortiguadores {
-        transform: rotate(20deg) translateX(-35%);
+    .rotated-amortiguadores {
+        align-self: center;
+        object-fit: contain;
     }
 
     .product-content {
@@ -424,6 +474,7 @@
     }
 
     @media (max-width: 1280px) {
+
         .intro-image-container {
             height: 30vh;
         }
@@ -457,6 +508,7 @@
         #slide-0 .row {
             min-height: 60vh;
             align-items: center !important;
+            align-content: center;
         }
 
         .intro-image-container {
@@ -511,27 +563,6 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-align: left;
-    }
-
-    .product-title {
-        font-size: 1.3rem;
-        font-weight: 500;
-        text-transform: uppercase;
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 8%;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 25;
-        width: 100%;
-        margin: 0;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-    }
-
-    .product-title.show {
-        opacity: 1;
     }
 
     .product-description {
@@ -629,8 +660,7 @@
         }
 
         .product-title {
-            font-size: 1.5rem;
-            top: 5%;
+            margin-top: 30px;
         }
     }
 
@@ -711,32 +741,83 @@
         vertical-align: middle;
         margin-right: 5px;
     }
+
+    .floating-sphere {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .floating-sphere .sphere-image {
+        max-width: 100px;
+        max-height: 100px;
+        width: 100%;
+        height: auto;
+        opacity: 0.6;
+    }
+
+    .sphere-1 {
+        top: 20%;
+        left: 10%;
+    }
+
+    .sphere-2 {
+        top: 50%;
+        right: 15%;
+    }
+
+    .sphere-3 {
+        top: 30%;
+        left: 50%;
+    }
+
+    /* Ajustar el responsive */
+    @media (max-width: 1280px) {
+        #slide-6 .product-image-container {
+            width: 460px;
+        }
+
+        #slide-6 .product-main-image {
+            width: 100%;
+            height: auto;
+        }
+    }
     </style>
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Solo ejecuta si estamos en products.php
         if (window.location.pathname.includes('products.php')) {
+            function resetSlideStates() {
+                document.querySelectorAll('.product-slide').forEach(function(slide) {
+                    slide.style.opacity = '0';
+                    slide.style.transform = 'scale(0.5)';
+                    slide.style.zIndex = '5';
+                    // Asegurarse de que los botones sean clickeables
+                    slide.style.pointerEvents = 'none';
+                });
+            }
+
+            function activateSlide(slideId) {
+                resetSlideStates();
+                var activeSlide = document.getElementById(slideId);
+                if (activeSlide) {
+                    activeSlide.style.opacity = '1';
+                    activeSlide.style.transform = 'scale(1)';
+                    activeSlide.style.zIndex = '10';
+                    activeSlide.style.pointerEvents = 'auto';
+                    document.getElementById('products').scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            }
+
             // Selecciona todos los enlaces del dropdown que apuntan a slides
             document.querySelectorAll('a.dropdown-item[href^="products.php#slide-"]').forEach(function(link) {
                 link.addEventListener('click', function(e) {
                     e.preventDefault();
                     var slideId = this.getAttribute('href').split('#')[1];
                     var slideNum = parseInt(slideId.replace('slide-', ''), 10);
-                    document.querySelectorAll('.product-slide').forEach(function(slide) {
-                        slide.style.opacity = '0';
-                        slide.style.transform = 'scale(0.5)';
-                        slide.style.zIndex = '5';
-                    });
-                    var activeSlide = document.getElementById(slideId);
-                    if (activeSlide) {
-                        activeSlide.style.opacity = '1';
-                        activeSlide.style.transform = 'scale(1)';
-                        activeSlide.style.zIndex = '10';
-                        document.getElementById('products').scrollIntoView({
-                            behavior: 'smooth'
-                        });
-                    }
+                    activateSlide(slideId);
                     // ACTUALIZA currentSlide
                     if (typeof window.setCurrentSlide === 'function') {
                         window.setCurrentSlide(slideNum);
@@ -750,20 +831,7 @@
             if (window.location.hash && window.location.hash.startsWith('#slide-')) {
                 var slideId = window.location.hash.replace('#', '');
                 var slideNum = parseInt(slideId.replace('slide-', ''), 10);
-                document.querySelectorAll('.product-slide').forEach(function(slide) {
-                    slide.style.opacity = '0';
-                    slide.style.transform = 'scale(0.5)';
-                    slide.style.zIndex = '5';
-                });
-                var activeSlide = document.getElementById(slideId);
-                if (activeSlide) {
-                    activeSlide.style.opacity = '1';
-                    activeSlide.style.transform = 'scale(1)';
-                    activeSlide.style.zIndex = '10';
-                    document.getElementById('products').scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
+                activateSlide(slideId);
                 // ACTUALIZA currentSlide
                 if (typeof window.setCurrentSlide === 'function') {
                     window.setCurrentSlide(slideNum);
@@ -840,13 +908,20 @@
                 isAnimating = true;
                 canScroll = false;
 
+                // Asegurar que el slide actual tenga interacción desactivada
+                fromSlide.style.pointerEvents = 'none';
+
                 const tl = gsap.timeline({
                     onComplete: () => {
                         isAnimating = false;
+                        // Activar interacción en el nuevo slide
+                        toSlide.style.pointerEvents = 'auto';
+                        fromSlide.style.zIndex = '5';
+                        toSlide.style.zIndex = '10';
                         // Permitir scroll nuevamente después de un delay
                         setTimeout(() => {
                             canScroll = true;
-                        }, 300);
+                        }, 200); // Reducido de 300 a 200ms
                     }
                 });
 
@@ -855,7 +930,7 @@
                     tl.to(fromSlide, {
                             scale: 0.5,
                             opacity: 0,
-                            duration: 0.8,
+                            duration: 0.5, // Reducido de 0.8 a 0.5 segundos
                             ease: "power2.inOut"
                         })
                         // Slide siguiente aparece desde el centro
@@ -866,15 +941,15 @@
                         }, {
                             scale: 1,
                             opacity: 1,
-                            duration: 0.8,
+                            duration: 0.5, // Reducido de 0.8 a 0.5 segundos
                             ease: "power2.out"
-                        }, "-=0.4");
+                        }, "-=0.3"); // Reducido de -=0.4 a -=0.3 para mantener la fluidez
                 } else {
                     // Slide actual se reduce y desaparece
                     tl.to(fromSlide, {
                             scale: 1.5,
                             opacity: 0,
-                            duration: 0.8,
+                            duration: 0.5, // Reducido de 0.8 a 0.5 segundos
                             ease: "power2.inOut"
                         })
                         // Slide anterior aparece creciendo
@@ -885,13 +960,19 @@
                         }, {
                             scale: 1,
                             opacity: 1,
-                            duration: 0.8,
+                            duration: 0.5, // Reducido de 0.8 a 0.5 segundos
                             ease: "power2.out"
-                        }, "-=0.4");
+                        }, "-=0.3"); // Reducido de -=0.4 a -=0.3 para mantener la fluidez
                 }
 
                 // Actualizar visibilidad del título después de la animación
                 tl.call(updateTitleVisibility);
+
+                // Actualizar el hash de la URL sin causar scroll
+                const newHash = `#slide-${currentSlide}`;
+                if (window.location.hash !== newHash) {
+                    history.replaceState(null, null, newHash);
+                }
             }
 
             // Función para obtener el slide por número
@@ -1042,150 +1123,67 @@
             // Manejar cambios en el hash de la URL
             window.addEventListener('hashchange', initializeFromHash);
 
-            // Animaciones de esferas
-            const sphere1 = document.querySelector('.sphere-1 .sphere-image');
-            const sphere2 = document.querySelector('.sphere-2 .sphere-image');
+            // Función para generar un número aleatorio entre min y max
+            function randomBetween(min, max) {
+                return Math.random() * (max - min) + min;
+            }
 
-            if (sphere1) {
-                const tl1 = gsap.timeline({
+            // Función para crear animación aleatoria para una esfera
+            function createRandomSphereAnimation(sphere) {
+                const viewportWidth = window.innerWidth;
+                const viewportHeight = window.innerHeight;
+
+                // Crear timeline para movimiento
+                const tl = gsap.timeline({
                     repeat: -1,
-                    ease: "none"
+                    yoyo: true
                 });
 
-                tl1.to(sphere1, {
-                        x: 150,
-                        y: -80,
-                        duration: 3,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere1, {
-                        x: 300,
-                        y: 40,
-                        duration: 3,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere1, {
-                        x: 200,
-                        y: -60,
-                        duration: 3,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere1, {
-                        x: 350,
-                        y: 80,
-                        duration: 3,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere1, {
-                        x: 100,
-                        y: 60,
-                        duration: 3,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere1, {
-                        x: 250,
-                        y: -40,
-                        duration: 3,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere1, {
-                        x: 50,
-                        y: 20,
-                        duration: 3,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere1, {
-                        x: 0,
-                        y: 0,
-                        duration: 3,
+                // Generar 8 posiciones aleatorias
+                for (let i = 0; i < 8; i++) {
+                    tl.to(sphere, {
+                        x: randomBetween(-viewportWidth / 3, viewportWidth / 3),
+                        y: randomBetween(-viewportHeight / 3, viewportHeight / 3),
+                        duration: randomBetween(2, 4),
                         ease: "power1.inOut"
                     });
+                }
 
-                gsap.to(sphere1, {
+                // Rotación continua
+                gsap.to(sphere, {
                     rotation: 360,
-                    duration: 8,
+                    duration: randomBetween(8, 12),
                     repeat: -1,
                     ease: "none"
                 });
 
-                gsap.to(sphere1, {
-                    scale: 1.2,
-                    duration: 2,
+                // Escala pulsante
+                gsap.to(sphere, {
+                    scale: randomBetween(0.8, 1.2),
+                    duration: randomBetween(1, 2),
                     repeat: -1,
                     yoyo: true,
                     ease: "power2.inOut"
                 });
             }
 
-            if (sphere2) {
-                const tl2 = gsap.timeline({
-                    repeat: -1,
-                    ease: "none",
-                    delay: 12
-                });
+            // Animar las tres esferas
+            const sphere1 = document.querySelector('.sphere-1 .sphere-image');
+            const sphere2 = document.querySelector('.sphere-2 .sphere-image');
+            const sphere3 = document.querySelector('.sphere-3 .sphere-image');
 
-                tl2.to(sphere2, {
-                        x: -120,
-                        y: 60,
-                        duration: 4,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere2, {
-                        x: -200,
-                        y: -40,
-                        duration: 4,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere2, {
-                        x: -150,
-                        y: 70,
-                        duration: 4,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere2, {
-                        x: -250,
-                        y: -30,
-                        duration: 4,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere2, {
-                        x: -180,
-                        y: -60,
-                        duration: 4,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere2, {
-                        x: -100,
-                        y: 50,
-                        duration: 4,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere2, {
-                        x: -80,
-                        y: -20,
-                        duration: 4,
-                        ease: "power1.inOut"
-                    })
-                    .to(sphere2, {
-                        x: 0,
-                        y: 0,
-                        duration: 4,
-                        ease: "power1.inOut"
-                    });
+            if (sphere1 && sphere2 && sphere3) {
+                // Iniciar cada esfera con un pequeño delay
+                setTimeout(() => createRandomSphereAnimation(sphere1), 0);
+                setTimeout(() => createRandomSphereAnimation(sphere2), 200);
+                setTimeout(() => createRandomSphereAnimation(sphere3), 400);
 
-                gsap.to(sphere2, {
-                    rotation: -360,
-                    duration: 10,
-                    repeat: -1,
-                    ease: "none"
-                });
-
-                gsap.to(sphere2, {
-                    scale: 1.1,
-                    duration: 2.5,
-                    repeat: -1,
-                    yoyo: true,
-                    ease: "power2.inOut"
+                // Actualizar animaciones cuando cambie el tamaño de la ventana
+                window.addEventListener('resize', () => {
+                    gsap.killTweensOf([sphere1, sphere2, sphere3]);
+                    createRandomSphereAnimation(sphere1);
+                    createRandomSphereAnimation(sphere2);
+                    createRandomSphereAnimation(sphere3);
                 });
             }
         }
