@@ -12,4 +12,5 @@ window.addEventListener("mousemove", e => {
     stagger: 0.035,
   });
     $( "#ldx" ).text( "X: " + event.pageX + ", Y: " + event.pageY );
+    $( "#hdx" ).text( "X: " + event.pageX + ", Y: " + event.pageY );
 });
