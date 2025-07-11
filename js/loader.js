@@ -1,3 +1,5 @@
+document.querySelector('html').style.overflowY = 'hidden';
+
 gsap.to(".content-loader-text h1", {
   opacity: 1,
   delay: 0.5,
@@ -65,3 +67,7 @@ function frame() {
 document.addEventListener("DOMContentLoaded", () => {
   move();
 });
+
+setTimeout(() => {
+        document.querySelector('html').style.overflowY = 'auto';
+    }, 6000); 

@@ -6,7 +6,7 @@
                     <a href="">
                         <img src="img/300_B&R.png" class="py-3" width="25%" alt="">
                     </a>
-                        <p class="my-3">
+                        <p class="efect my-3">
                             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                             consequat duis enim velit mollit.
                         </p>
@@ -25,7 +25,11 @@
             <div class="row">
                 <!--PRIMERA COLUMNA-->
                 <div class="col-12 col-md-3 text-center text-md-start">
+<<<<<<< Updated upstream
                     <p class="h3">ADN</p>
+=======
+                    <h3 class="efect">ADN</h3>
+>>>>>>> Stashed changes
                     <div class="">
                         <a class="" href="#mision">Misión</a>
                     </div>
@@ -44,7 +48,11 @@
                 </div>
                 <!--SEGUNDA COLUMNA-->
                 <div class="col-12 col-md-3 text-center text-md-start">
+<<<<<<< Updated upstream
                     <p class="h3">PARTNERS</p>
+=======
+                    <h3 class="efect">PARTNERS</h3>
+>>>>>>> Stashed changes
                     <div class="">
                         <a class="" href="">Equipo</a>
                     </div>
@@ -57,7 +65,11 @@
                 </div>
                 <!--TERCERA COLUMNA-->
                 <div class="col-12 col-md-3 text-center text-md-start">
+<<<<<<< Updated upstream
                     <p class="h3">PRODUCTOS</p>
+=======
+                    <h3 class="efect">PRODUCTOS</h3>
+>>>>>>> Stashed changes
                     <div class="">
                         <a class="" href="">Colisión e interiores</a>
                     </div>
@@ -79,7 +91,11 @@
                 </div>
                 <!--TERCERA COLUMNA-->
                 <div class="col-12 col-md-3 text-center text-md-start">
+<<<<<<< Updated upstream
                     <p class="h3">CARRERAS</p>
+=======
+                    <h3 class="efect">CARRERAS</h3>
+>>>>>>> Stashed changes
                     <div class="">
                         <a class="" href="">Bolsa de trabajo</a>
                     </div>

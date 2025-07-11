@@ -12,16 +12,32 @@
     <?php
         require_once("loader.php");
     ?>
-    <?php
-        require_once("header.php");
-    ?>
+
+    <header>
+        <video id="myVideo" preload="auto" loop autoplay playsinline muted class="vid-bg">
+            <source src="video/BrukAnimV2.mp4" type="video/mp4">
+        </video>
+        <?php
+            require_once("header.php");
+        ?>
+    </header>
+    
     <div role="main" class="main">
 
         <section id="adn" class="">
             <div class="container">
                 <div class="row">
+<<<<<<< Updated upstream
                     <div class="col-12">
                         <h5>ADN</h5>
+=======
+                    <div class="col-12 text-center">
+                        <p class="titleSection mt-5">ADN</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+>>>>>>> Stashed changes
                         <h4>ACERCA DE</h4>
                         <h1>BRÜK GERMANY</h1>
                     </div>
@@ -29,6 +45,7 @@
             </div>
         </section>
 
+<<<<<<< Updated upstream
         <section id="partners" class="">
             <div class="container">
                 <div class="row">
@@ -36,22 +53,59 @@
                         <h1>Nuestra Gente</h1>
                     </div>
                     <div class="col-12">
+=======
+        <section id="aboutus" class="aboutus">
+            <div class="container">
+                <div class="row aligned-us"> 
+                    <div class="col-12 text-center col-md-4 text-md-end aligned-us">
+                        <h1 id="our">Nuestra Gente</h1>
+                    </div>
+                    <div class="col-12 text-center col-md-6 offset-md-2 text-md-start aligned-us">
+>>>>>>> Stashed changes
                         <p>Somos un equipo apasionado, cuya misión es inspirar a futuras generaciones de profesionales y
-                            fortalecer relaciones basadas en la lealtad, el compromiso y la integridad.</p>
+                                    fortalecer relaciones basadas en la lealtad, el compromiso y la integridad.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+        
+        <!-- <div class="contentBub">
+          <div class="layerBub">
+            <div class="bubbleus">
+              <img src="img/Esfera.png" alt="">
+            </div>
+          </div>
+          <div class="layerBub">
+            <div class="bubbleus">
+              <img src="img/Esfera.png" alt="">
+            </div>
+          </div>
+          <div class="layerBub">
+            <div class="bubbleus">
+              <img src="img/Esfera.png" alt="">
+            </div>
+          </div>
+        </div> -->
 
+<<<<<<< Updated upstream
                 <div class="row">
                     <div class="col-12">
                         <h1>Nuestros Valores</h1>
+=======
+        <section id="partners" class="partners">
+            <div class="container">
+                <div id="listvalue" class="row">
+                    <div class="col-12 text-center text-md-start my-4">
+                        <h1 class="efect">Nuestros Valores</h1>
+>>>>>>> Stashed changes
                     </div>
                     <div class="col-12">
                         <ul>
-                            <li><strong>Respeto y Honestidad:</strong> Valoramos la sinceridad y el trato justo en cada
+                            <li class="efect"><strong>Respeto y Honestidad:</strong> Valoramos la sinceridad y el trato justo en cada
                                 interacción.</li>
-                            <li><strong>Buen Trato y Preocupación Verdadera:</strong> Cuidamos a nuestra gente como en
+                            <li class="efect"><strong>Buen Trato y Preocupación Verdadera:</strong> Cuidamos a nuestra gente como en
                                 casa, favoreciendo su desarrollo profesional y bienestar.</li>
-                            <li><strong>Colaboración y Compañerismo:</strong> Creemos en la fuerza del trabajo en equipo
+                            <li class="efect"><strong>Colaboración y Compañerismo:</strong> Creemos en la fuerza del trabajo en equipo
                                 y en el apoyo mutuo.</li>
                         </ul>
                     </div>
@@ -60,11 +114,11 @@
                 <div class="row">
                     <div class="col-12">
                         <ul>
-                            <li><strong>Responsabilidad Social:</strong> Contribuimos con acciones positivas que mejoran
+                            <li class="efect"><strong>Responsabilidad Social:</strong> Contribuimos con acciones positivas que mejoran
                                 la calidad de vida de nuestras comunidades.</li>
-                            <li><strong>Innovación e Inclusión:</strong> Impulsamos ideas transformadoras y abrimos
+                            <li class="efect"><strong>Innovación e Inclusión:</strong> Impulsamos ideas transformadoras y abrimos
                                 espacios para todos, asegurando equidad y fidelidad.</li>
-                            <li><strong>Excelencia y Confianza:</strong> Mantenemos la promesa de ser la mejor opción de
+                            <li class="efect"><strong>Excelencia y Confianza:</strong> Mantenemos la promesa de ser la mejor opción de
                                 compra, ofreciendo rendimiento superior y respaldo constante.</li>
                         </ul>
                     </div>
@@ -74,6 +128,7 @@
 
         <section id="values" class="">
             <div class="container">
+<<<<<<< Updated upstream
                 <div class="row">
 
                     <div id="mision" class="col-md-6 col-lg-6 col-xs-12">
@@ -96,6 +151,31 @@
                     </div>
                     <div id="visionlg" class="col-md-6 col-lg-6 col-xs-12 vision d-none d-sm-flex">
                         <h3 style="text-align: center; opacity: 0;" class="efect valuetitle my-5 p-5">VISIÓN</h3>
+=======
+                <div class="traslucid">
+                    <div class="row">
+                        <div id="visionlg" class="col-12 text-center col-md-6 imavalue mision d-flex d-sm-none">
+                            <h3 class="">MISIÓN</h3>
+                        </div>
+                        <div id="visiontxt" class="col-12 text-center col-md-6 text-md-end textvaluem">
+                            <p class="leteer texting">Ofrecer
+                                plena confianza en nuestros productos, logrando la satisfacción de nuestros clientes a
+                                través de calidad, innovación y un servicio excepcional.</p>
+                        </div>
+                        <div id="visionlg" class="col-12 text-center col-md-6 imavalue mision d-none d-sm-flex">
+                            <h3  class="">MISIÓN</h3>
+                        </div>
+                        <div id="mision" class="col-12 text-center col-md-6 imavalue vision">
+                            <h3 class="">VISIÓN</h3>
+                        </div>
+                        <div id="misiontxt" class="col-12 text-center col-md-6 text-md-start textvaluev">
+                            <p class="leteer texting2">
+                                Ser líderes en innovación dentro del mercado de repuestos, destacando como una marca
+                                reconocida por su seguridad, confiabilidad y compromiso. Nos esforzamos por ser el referente
+                                en la industria, construyendo una identidad sólida y valorada.
+                            </p>
+                        </div>
+>>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
@@ -105,16 +185,30 @@
             <div class="container">
                 <div class="row">
 
+<<<<<<< Updated upstream
                     <div class="col-12">
                         <div class="card mb-3" style="max-width: 540px;">
+=======
+                    <div class="col-12 card__content">
+                        <div class=" mb-3">
+>>>>>>> Stashed changes
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img src="..." class="img-fluid rounded-start" alt="...">
                                 </div>
+<<<<<<< Updated upstream
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">HISTORIA</h5>
                                         <p class="card-text">Con 30 años de experiencia, Brück Germany ha revolucionado
+=======
+                                <div class="col-12 text-justify col-md-7 offset-md-2 text-md-start card__inner">
+                                    <div class="col-md-5">
+                                        <h5 class="my-3 text-center text-md-start">HISTORIA</h5>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p>Con 30 años de experiencia, Brück Germany ha revolucionado
+>>>>>>> Stashed changes
                                             la industria de autopartes en México, posicionándose como líder en
                                             innovación y calidad superior. Nuestra historia se forja en la búsqueda
                                             constante de la excelencia, superando retos y adaptándonos a un mercado en
@@ -125,16 +219,30 @@
                             </div>
                         </div>
                     </div>
+<<<<<<< Updated upstream
                     <div class="col-12">
                         <div class="card mb-3" style="max-width: 540px;">
+=======
+                    <div class="col-12 card__content">
+                        <div class=" mb-3">
+>>>>>>> Stashed changes
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img src="..." class="img-fluid rounded-start" alt="...">
                                 </div>
+<<<<<<< Updated upstream
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">PARTNERS</h5>
                                         <p class="card-text">En Brück Germany colocamos a las personas en el corazón de
+=======
+                                <div class="col-12 text-justify col-md-7 offset-md-2 text-md-start card__inner">
+                                    <div class="col-md-5 text-start">
+                                        <h5 class="my-3 text-center text-md-start">PARTNERS</h5>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p>En Brück Germany colocamos a las personas en el corazón de
+>>>>>>> Stashed changes
                                             nuestro modelo de negocio, donde la calidad humana de colaboradores,
                                             clientesy proveedores es la base de relaciones sólidas y duraderas. Nuestro
                                             compromiso ético y responsable se traduce en prácticas comerciales
@@ -154,6 +262,7 @@
         <section id="carrers" class="">
             <div class="container">
                 <div class="row">
+<<<<<<< Updated upstream
                     <h4 class="efect">CARRERAS</h4>
                     <h1 class="efect">Desarrollo Profesional y Bolsa de Trabajo</h1>
                     <div id="news_line" class="customer-container owl-carousel owl-theme" style="padding: 0 80px;">
@@ -161,6 +270,14 @@
                         <div id="template_news" class="tarjeta">
                             <a href="#">
                                 <div class="img-box image-container">
+=======
+                    <div class="col-12 text-center">
+                        <p class="titleSection">CARRERAS</p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <h1 class="my-3 efect">Desarrollo Profesional y Bolsa de Trabajo</h1>
+                    </div>
+>>>>>>> Stashed changes
 
                                     <img src="" class="fit-image" alt="VACANTES">
 
@@ -282,9 +399,15 @@
             <div class="container">
                 <div class="card">
                     <div class="row">
+<<<<<<< Updated upstream
                         <div class="col-12 col-md-6 text-center text-md-start">
                             <h3>Conecta con Nosotros</h3>
                             <p>Tu éxito es nuestra prioridad. Si deseas más información sobre nuestros productos,
+=======
+                        <div class="col-12 col-md-5 text-center text-md-start">
+                            <h3 class="efect">Conecta con Nosotros</h3>
+                            <p class="efect my-3">Tu éxito es nuestra prioridad. Si deseas más información sobre nuestros productos,
+>>>>>>> Stashed changes
                                 servicios o establecer una alianza comercial, contáctanos.</p>
                             <form>
                                 <div class="row">
@@ -312,6 +435,7 @@
 
 
                         </div>
+<<<<<<< Updated upstream
 
                         <div class="col-12 col-md-5">
 
@@ -326,6 +450,10 @@
                     <div class="col-12 col-md-6">
                         <div id="map"></div>
                         <div>
+=======
+                        <div class="col-12 col-md-6 offset-md-1">
+                            <div id="map"></div>
+>>>>>>> Stashed changes
                         </div>
                     </div>
                 </div>
