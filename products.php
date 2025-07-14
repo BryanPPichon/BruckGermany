@@ -13,242 +13,247 @@
         require_once("header.php");
     ?>
     <section id="products" class="products-section">
-        <div class="container-fluid">
-            <!-- Título centrado - Movido arriba de todos los slides -->
-            <div class="row title-row">
-                <div class="col-12">
-                    <h1 class="product-title"><img src="img/Bruck_icon.png" alt="Bruck Icon" class="bruck-icon">
-                        NUESTRAS AUTOPARTES</h1>
-                </div>
+        <div class="container-fluid d-flex flex-row" style="width:100vw;max-width:100vw;">
+            <!-- Contador de slides fijo a la izquierda -->
+            <div class="slide-counter-container">
+                <span id="slide-counter">01</span>
             </div>
-
-            <!-- Slides container -->
-            <div class="slides-container">
-                <!-- Slide inicial - Presentación -->
-                <div class="product-slide intro-slide" id="slide-0">
-                    <div class="row align-items-center min-vh-100">
-                        <!-- Imagen de la izquierda -->
-                        <div class="col-auto p-0">
-                            <div class="intro-image-container">
-                                <img src="img/0nuestros-productos.png" alt="Nuestros Productos"
-                                    class="img-fluid intro-main-image">
+            <!-- Slides container a la derecha -->
+            <div class="slides-wrapper">
+                <!-- Título centrado - Movido arriba de todos los slides -->
+                <div class="row title-row">
+                    <div class="col-12">
+                        <h1 class="product-title"><img src="img/Bruck_icon.png" alt="Bruck Icon" class="bruck-icon">
+                            NUESTRAS AUTOPARTES</h1>
+                    </div>
+                </div>
+                <div class="slides-container">
+                    <!-- Slide inicial - Presentación -->
+                    <div class="product-slide intro-slide" id="slide-0">
+                        <div class="row align-items-center min-vh-100">
+                            <!-- Imagen de la izquierda -->
+                            <div class="col-auto p-0">
+                                <div class="intro-image-container">
+                                    <img src="img/0nuestros-productos.png" alt="Nuestros Productos"
+                                        class="img-fluid intro-main-image">
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Contenido de la derecha -->
-                        <div class="col d-flex align-items-center">
-                            <div class="intro-content">
-                                <h2 class="intro-title">CONOCE<br>NUESTROS PRODUCTOS</h2>
-                                <p class="intro-subtitle">"Innovations for driver safety"</p>
+                            <!-- Contenido de la derecha -->
+                            <div class="col d-flex align-items-center">
+                                <div class="intro-content">
+                                    <h2 class="intro-title">CONOCE<br>NUESTROS PRODUCTOS</h2>
+                                    <p class="intro-subtitle">"Innovations for driver safety"</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Primera sección - Colisión e Interiores -->
-                <div class="product-slide" id="slide-1">
-                    <div class="row align-items-center min-vh-100">
-                        <!-- Imagen de la izquierda -->
-                        <div class="col-auto p-0">
-                            <div class="product-image-container">
-                                <img src="img/Colision_Interiores.png" alt="Colisión e Interiores"
-                                    class="img-fluid product-main-image">
+                    <!-- Primera sección - Colisión e Interiores -->
+                    <div class="product-slide" id="slide-1">
+                        <div class="row align-items-center min-vh-100">
+                            <!-- Imagen de la izquierda -->
+                            <div class="col-auto p-0">
+                                <div class="product-image-container">
+                                    <img src="img/Colision_Interiores.png" alt="Colisión e Interiores"
+                                        class="img-fluid product-main-image">
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Contenido de la derecha -->
-                        <div class="col d-flex align-items-center">
-                            <div class="product-content">
-                                <div class="product-content-card">
-                                    <h2 class="product-card-title">COLISIÓN E INTERIORES</h2>
+                            <!-- Contenido de la derecha -->
+                            <div class="col d-flex align-items-center">
+                                <div class="product-content">
+                                    <div class="product-content-card">
+                                        <h2 class="product-card-title">COLISIÓN E INTERIORES</h2>
 
-                                    <p class="product-description">
-                                        Nuestras autopartes de colisión e interiores están diseñadas con
-                                        los mejores materiales, altos estándares de calidad y están
-                                        homologadas con equipo original para garantizar su ensamblaje.
-                                    </p>
+                                        <p class="product-description">
+                                            Nuestras autopartes de colisión e interiores están diseñadas con
+                                            los mejores materiales, altos estándares de calidad y están
+                                            homologadas con equipo original para garantizar su ensamblaje.
+                                        </p>
 
-                                    <div class="product-buttons">
-                                        <button class="btn btn-outline-light btn-conoce"
-                                            onclick="window.open('https://bruck.com.mx/Search/Index?q=COLISION&ms=Index', '_blank')">Conoce
-                                            más</button>
-                                        <button class="btn btn-danger btn-descargar"
-                                            onclick="window.open('pdf/CAT_COLISION_2025.pdf', '_blank')">Descargar</button>
+                                        <div class="product-buttons">
+                                            <button class="btn btn-outline-light btn-conoce"
+                                                onclick="window.open('https://bruck.com.mx/Search/Index?q=COLISION&ms=Index', '_blank')">Conoce
+                                                más</button>
+                                            <button class="btn btn-danger btn-descargar"
+                                                onclick="window.open('pdf/CAT_COLISION_2025.pdf', '_blank')">Descargar</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Segunda sección - Electrónico -->
-                <div class="product-slide" id="slide-2">
-                    <div class="row align-items-center min-vh-100">
-                        <!-- Imagen de la izquierda -->
-                        <div class="col-auto p-0">
-                            <div class="product-image-container">
-                                <img src="img/Electrico.png" alt="Electrónico" class="img-fluid product-main-image">
+                    <!-- Segunda sección - Electrónico -->
+                    <div class="product-slide" id="slide-2">
+                        <div class="row align-items-center min-vh-100">
+                            <!-- Imagen de la izquierda -->
+                            <div class="col-auto p-0">
+                                <div class="product-image-container">
+                                    <img src="img/Electrico.png" alt="Electrónico" class="img-fluid product-main-image">
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Contenido de la derecha -->
-                        <div class="col d-flex align-items-center">
-                            <div class="product-content">
-                                <div class="product-content-card">
-                                    <h2 class="product-card-title">ELÉCTRICO</h2>
+                            <!-- Contenido de la derecha -->
+                            <div class="col d-flex align-items-center">
+                                <div class="product-content">
+                                    <div class="product-content-card">
+                                        <h2 class="product-card-title">ELÉCTRICO</h2>
 
-                                    <p class="product-description">
-                                        Nuestras autopartes de colisión e interiores están diseñadas con
-                                        los mejores materiales, altos estándares de calidad y están
-                                        homologadas con equipo original para garantizar su ensamblaje.
-                                    </p>
+                                        <p class="product-description">
+                                            Nuestras autopartes de colisión e interiores están diseñadas con
+                                            los mejores materiales, altos estándares de calidad y están
+                                            homologadas con equipo original para garantizar su ensamblaje.
+                                        </p>
 
-                                    <div class="product-buttons">
-                                        <button class="btn btn-outline-light btn-conoce"
-                                            onclick="window.open('https://bruck.com.mx/Search/Index?q=ELECTRICO&ms=Index', '_blank')">Conoce
-                                            más</button>
-                                        <button class="btn btn-danger btn-descargar"
-                                            onclick="window.open('pdf/CAT_ELECTRICO_2025.pdf', '_blank')">Descargar</button>
+                                        <div class="product-buttons">
+                                            <button class="btn btn-outline-light btn-conoce"
+                                                onclick="window.open('https://bruck.com.mx/Search/Index?q=ELECTRICO&ms=Index', '_blank')">Conoce
+                                                más</button>
+                                            <button class="btn btn-danger btn-descargar"
+                                                onclick="window.open('pdf/CAT_ELECTRICO_2025.pdf', '_blank')">Descargar</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Tercera sección - Frenos y Clutch -->
-                <div class="product-slide" id="slide-3">
-                    <div class="row align-items-center min-vh-100">
-                        <!-- Imagen de la izquierda -->
-                        <div class="col-auto p-0">
-                            <div class="product-image-container">
-                                <img src="img/Frenos_clutch.png" alt="Frenos y Clutch"
-                                    class="img-fluid product-main-image">
+                    <!-- Tercera sección - Frenos y Clutch -->
+                    <div class="product-slide" id="slide-3">
+                        <div class="row align-items-center min-vh-100">
+                            <!-- Imagen de la izquierda -->
+                            <div class="col-auto p-0">
+                                <div class="product-image-container">
+                                    <img src="img/Frenos_clutch.png" alt="Frenos y Clutch"
+                                        class="img-fluid product-main-image">
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Contenido de la derecha -->
-                        <div class="col d-flex align-items-center">
-                            <div class="product-content">
-                                <div class="product-content-card">
-                                    <h2 class="product-card-title">FRENOS Y CLUTCH</h2>
+                            <!-- Contenido de la derecha -->
+                            <div class="col d-flex align-items-center">
+                                <div class="product-content">
+                                    <div class="product-content-card">
+                                        <h2 class="product-card-title">FRENOS Y CLUTCH</h2>
 
-                                    <p class="product-description">
-                                        Nuestras autopartes de colisión e interiores están diseñadas con
-                                        los mejores materiales, altos estándares de calidad y están
-                                        homologadas con equipo original para garantizar su ensamblaje.
-                                    </p>
+                                        <p class="product-description">
+                                            Nuestras autopartes de colisión e interiores están diseñadas con
+                                            los mejores materiales, altos estándares de calidad y están
+                                            homologadas con equipo original para garantizar su ensamblaje.
+                                        </p>
 
-                                    <div class="product-buttons">
-                                        <button class="btn btn-outline-light btn-conoce"
-                                            onclick="window.open('https://bruck.com.mx/Search/Index?q=FRENOS%20Y%20CLUTCH&ms=Index', '_blank')">Conoce
-                                            más</button>
-                                        <button class="btn btn-danger btn-descargar"
-                                            onclick="window.open('pdf/CAT_FRENOS_2025.pdf', '_blank')">Descargar</button>
+                                        <div class="product-buttons">
+                                            <button class="btn btn-outline-light btn-conoce"
+                                                onclick="window.open('https://bruck.com.mx/Search/Index?q=FRENOS%20Y%20CLUTCH&ms=Index', '_blank')">Conoce
+                                                más</button>
+                                            <button class="btn btn-danger btn-descargar"
+                                                onclick="window.open('pdf/CAT_FRENOS_2025.pdf', '_blank')">Descargar</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Cuarta sección - Motor -->
-                <div class="product-slide" id="slide-4">
-                    <div class="row align-items-center min-vh-100">
-                        <!-- Imagen de la izquierda -->
-                        <div class="col-auto p-0">
-                            <div class="product-image-container">
-                                <img src="img/motor.png" alt="Motor" class="img-fluid product-main-image">
+                    <!-- Cuarta sección - Motor -->
+                    <div class="product-slide" id="slide-4">
+                        <div class="row align-items-center min-vh-100">
+                            <!-- Imagen de la izquierda -->
+                            <div class="col-auto p-0">
+                                <div class="product-image-container">
+                                    <img src="img/motor.png" alt="Motor" class="img-fluid product-main-image">
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Contenido de la derecha -->
-                        <div class="col d-flex align-items-center">
-                            <div class="product-content">
-                                <div class="product-content-card">
-                                    <h2 class="product-card-title">MOTOR</h2>
+                            <!-- Contenido de la derecha -->
+                            <div class="col d-flex align-items-center">
+                                <div class="product-content">
+                                    <div class="product-content-card">
+                                        <h2 class="product-card-title">MOTOR</h2>
 
-                                    <p class="product-description">
-                                        Nuestras autopartes de colisión e interiores están diseñadas con
-                                        los mejores materiales, altos estándares de calidad y están
-                                        homologadas con equipo original para garantizar su ensamblaje.
-                                    </p>
+                                        <p class="product-description">
+                                            Nuestras autopartes de colisión e interiores están diseñadas con
+                                            los mejores materiales, altos estándares de calidad y están
+                                            homologadas con equipo original para garantizar su ensamblaje.
+                                        </p>
 
-                                    <div class="product-buttons">
-                                        <button class="btn btn-outline-light btn-conoce"
-                                            onclick="window.open('https://bruck.com.mx/Search/Index?q=MOTOR&ms=Index', '_blank')">Conoce
-                                            más</button>
-                                        <button class="btn btn-danger btn-descargar"
-                                            onclick="window.open('pdf/CAT_MOTOR_2025.pdf', '_blank')">Descargar</button>
+                                        <div class="product-buttons">
+                                            <button class="btn btn-outline-light btn-conoce"
+                                                onclick="window.open('https://bruck.com.mx/Search/Index?q=MOTOR&ms=Index', '_blank')">Conoce
+                                                más</button>
+                                            <button class="btn btn-danger btn-descargar"
+                                                onclick="window.open('pdf/CAT_MOTOR_2025.pdf', '_blank')">Descargar</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Quinta sección - Suspensión y Dirección -->
-                <div class="product-slide" id="slide-5">
-                    <div class="row align-items-center min-vh-100">
-                        <!-- Imagen de la izquierda -->
-                        <div class="col-auto p-0">
-                            <div class="product-image-container">
-                                <img src="img/Suspension_direccion.png" alt="Suspensión y Dirección"
-                                    class="img-fluid product-main-image">
+                    <!-- Quinta sección - Suspensión y Dirección -->
+                    <div class="product-slide" id="slide-5">
+                        <div class="row align-items-center min-vh-100">
+                            <!-- Imagen de la izquierda -->
+                            <div class="col-auto p-0">
+                                <div class="product-image-container">
+                                    <img src="img/Suspension_direccion.png" alt="Suspensión y Dirección"
+                                        class="img-fluid product-main-image">
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Contenido de la derecha -->
-                        <div class="col d-flex align-items-center">
-                            <div class="product-content">
-                                <div class="product-content-card">
-                                    <h2 class="product-card-title">SUSPENSIÓN Y DIRECCIÓN</h2>
+                            <!-- Contenido de la derecha -->
+                            <div class="col d-flex align-items-center">
+                                <div class="product-content">
+                                    <div class="product-content-card">
+                                        <h2 class="product-card-title">SUSPENSIÓN Y DIRECCIÓN</h2>
 
-                                    <p class="product-description">
-                                        Nuestras autopartes de colisión e interiores están diseñadas con
-                                        los mejores materiales, altos estándares de calidad y están
-                                        homologadas con equipo original para garantizar su ensamblaje.
-                                    </p>
+                                        <p class="product-description">
+                                            Nuestras autopartes de colisión e interiores están diseñadas con
+                                            los mejores materiales, altos estándares de calidad y están
+                                            homologadas con equipo original para garantizar su ensamblaje.
+                                        </p>
 
-                                    <div class="product-buttons">
-                                        <button class="btn btn-outline-light btn-conoce"
-                                            onclick="window.open('https://bruck.com.mx/Search/Index?q=SUSPENSION&ms=Index', '_blank')">Conoce
-                                            más</button>
-                                        <button class="btn btn-danger btn-descargar"
-                                            onclick="window.open('pdf/CAT_SUSPENSION_2025.pdf', '_blank')">Descargar</button>
+                                        <div class="product-buttons">
+                                            <button class="btn btn-outline-light btn-conoce"
+                                                onclick="window.open('https://bruck.com.mx/Search/Index?q=SUSPENSION&ms=Index', '_blank')">Conoce
+                                                más</button>
+                                            <button class="btn btn-danger btn-descargar"
+                                                onclick="window.open('pdf/CAT_SUSPENSION_2025.pdf', '_blank')">Descargar</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Sexta sección - Amortiguadores -->
-                <div class="product-slide" id="slide-6">
-                    <div class="row align-items-center min-vh-100">
-                        <!-- Imagen de la izquierda -->
-                        <div class="col-auto p-0">
-                            <div class="product-image-container">
-                                <img src="img/amortiguadores.png" alt="Amortiguadores"
-                                    class="img-fluid product-main-image rotated-amortiguadores">
+                    <!-- Sexta sección - Amortiguadores -->
+                    <div class="product-slide" id="slide-6">
+                        <div class="row align-items-center min-vh-100">
+                            <!-- Imagen de la izquierda -->
+                            <div class="col-auto p-0">
+                                <div class="product-image-container">
+                                    <img src="img/amortiguadores.png" alt="Amortiguadores"
+                                        class="img-fluid product-main-image rotated-amortiguadores">
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Contenido de la derecha -->
-                        <div class="col d-flex align-items-center">
-                            <div class="product-content">
-                                <div class="product-content-card">
-                                    <h2 class="product-card-title">AMORTIGUADORES</h2>
+                            <!-- Contenido de la derecha -->
+                            <div class="col d-flex align-items-center">
+                                <div class="product-content">
+                                    <div class="product-content-card">
+                                        <h2 class="product-card-title">AMORTIGUADORES</h2>
 
-                                    <p class="product-description">
-                                        Nuestras autopartes de colisión e interiores están diseñadas con
-                                        los mejores materiales, altos estándares de calidad y están
-                                        homologadas con equipo original para garantizar su ensamblaje.
-                                    </p>
+                                        <p class="product-description">
+                                            Nuestras autopartes de colisión e interiores están diseñadas con
+                                            los mejores materiales, altos estándares de calidad y están
+                                            homologadas con equipo original para garantizar su ensamblaje.
+                                        </p>
 
-                                    <div class="product-buttons">
-                                        <button class="btn btn-outline-light btn-conoce">Conoce más</button>
-                                        <button class="btn btn-danger btn-descargar">Descargar</button>
+                                        <div class="product-buttons">
+                                            <button class="btn btn-outline-light btn-conoce">Conoce más</button>
+                                            <button class="btn btn-danger btn-descargar">Descargar</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -320,6 +325,50 @@
         z-index: 10;
         transform: scale(1);
         opacity: 1;
+        position: relative; /* Asegura que no se superponga con otros slides */
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: stretch; /* Ocupa todo el alto */
+    }
+
+    #slide-0 .row.align-items-center {
+        min-height: 100vh;
+        height: 100vh;
+        align-items: stretch !important;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #slide-0 .col-auto.p-0,
+    #slide-0 .col.d-flex.align-items-center {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    #slide-0 .intro-image-container {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #slide-0 .intro-main-image {
+        max-height: 80vh;
+        width: auto;
+        object-fit: contain;
+    }
+
+    #slide-0 .intro-content {
+        width: 100%;
+        padding: 0 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
     }
 
     #slide-1 {
@@ -356,10 +405,6 @@
         z-index: 5;
         transform: scale(0.5);
         opacity: 0;
-    }
-
-    .intro-slide {
-        background: linear-gradient(135deg, #1a2332 0%, #2d3748 50%, #1a2332 100%);
     }
 
     .intro-image-container {
@@ -781,6 +826,79 @@
             height: auto;
         }
     }
+
+    .slide-counter-container {
+        width: 30vw;
+        min-width: 120px;
+        max-width: 400px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+        pointer-events: none;
+        user-select: none;
+        position: sticky;
+        left: 0;
+        top: 0;
+        background: transparent;
+    }
+
+    #slide-counter {
+        font-size: 7vw;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 2px;
+        font-family: var(--font-main, Arial, sans-serif);
+        text-shadow: 0 2px 16px rgba(0,0,0,0.25);
+        transition: color 0.3s;
+        margin-right: 2vw;
+    }
+
+    .slides-wrapper {
+        width: 70vw;
+        min-width: 0;
+        height: 100vh;
+        position: relative;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .slides-container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+
+    @media (max-width: 900px) {
+        .slide-counter-container {
+            width: 20vw;
+            min-width: 80px;
+            height: 100vh;
+        }
+        #slide-counter {
+            font-size: 4vw;
+        }
+        .slides-wrapper {
+            width: 80vw;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .slide-counter-container {
+            width: 15vw;
+            min-width: 40px;
+            height: 100vh;
+        }
+        #slide-counter {
+            font-size: 2.5vw;
+        }
+        .slides-wrapper {
+            width: 85vw;
+        }
+    }
     </style>
 
     <script>
@@ -907,6 +1025,17 @@
                 if (isAnimating) return;
                 isAnimating = true;
                 canScroll = false;
+
+                // Animar el contador de slides
+                const counter = document.getElementById('slide-counter');
+                const prev = parseInt(counter.textContent, 10);
+                const next = currentSlide + 1;
+                gsap.to(counter, {
+                    textContent: next < 10 ? `0${next}` : `${next}`,
+                    duration: 0.4,
+                    snap: { textContent: 1 },
+                    ease: "power1.inOut"
+                });
 
                 // Asegurar que el slide actual tenga interacción desactivada
                 fromSlide.style.pointerEvents = 'none';
