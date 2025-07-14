@@ -59,15 +59,15 @@
                         <div class="col d-flex align-items-center">
                             <div class="product-content">
                                 <div class="product-content-card">
-                                    <h2 class="product-card-title">COLISIÓN E INTERIORES</h2>
+                                    <h1>COLISIÓN E INTERIORES</h1>
 
-                                    <p class="product-description">
+                                    <p class="mb-5">
                                         Nuestras autopartes de colisión e interiores están diseñadas con
                                         los mejores materiales, altos estándares de calidad y están
                                         homologadas con equipo original para garantizar su ensamblaje.
                                     </p>
 
-                                    <div class="product-buttons">
+                                    <div class="product-buttons pt-4">
                                         <button class="btn btn-outline-light btn-conoce"
                                             onclick="window.open('https://bruck.com.mx/Search/Index?q=COLISION&ms=Index', '_blank')">Conoce
                                             más</button>
@@ -94,15 +94,15 @@
                         <div class="col d-flex align-items-center">
                             <div class="product-content">
                                 <div class="product-content-card">
-                                    <h2 class="product-card-title">ELÉCTRICO</h2>
+                                    <h1>ELÉCTRICO</h1>
 
-                                    <p class="product-description">
+                                    <p class="mb-5">
                                         Nuestras autopartes de colisión e interiores están diseñadas con
                                         los mejores materiales, altos estándares de calidad y están
                                         homologadas con equipo original para garantizar su ensamblaje.
                                     </p>
 
-                                    <div class="product-buttons">
+                                    <div class="product-buttons pt-4">
                                         <button class="btn btn-outline-light btn-conoce"
                                             onclick="window.open('https://bruck.com.mx/Search/Index?q=ELECTRICO&ms=Index', '_blank')">Conoce
                                             más</button>
@@ -130,15 +130,15 @@
                         <div class="col d-flex align-items-center">
                             <div class="product-content">
                                 <div class="product-content-card">
-                                    <h2 class="product-card-title">FRENOS Y CLUTCH</h2>
+                                    <h1>FRENOS Y CLUTCH</h1>
 
-                                    <p class="product-description">
+                                    <p class="mb-5">
                                         Nuestras autopartes de colisión e interiores están diseñadas con
                                         los mejores materiales, altos estándares de calidad y están
                                         homologadas con equipo original para garantizar su ensamblaje.
                                     </p>
 
-                                    <div class="product-buttons">
+                                    <div class="product-buttons pt-4">
                                         <button class="btn btn-outline-light btn-conoce"
                                             onclick="window.open('https://bruck.com.mx/Search/Index?q=FRENOS%20Y%20CLUTCH&ms=Index', '_blank')">Conoce
                                             más</button>
@@ -165,15 +165,15 @@
                         <div class="col d-flex align-items-center">
                             <div class="product-content">
                                 <div class="product-content-card">
-                                    <h2 class="product-card-title">MOTOR</h2>
+                                    <h1>MOTOR</h1>
 
-                                    <p class="product-description">
+                                    <p class="mb-5">
                                         Nuestras autopartes de colisión e interiores están diseñadas con
                                         los mejores materiales, altos estándares de calidad y están
                                         homologadas con equipo original para garantizar su ensamblaje.
                                     </p>
 
-                                    <div class="product-buttons">
+                                    <div class="product-buttons pt-4">
                                         <button class="btn btn-outline-light btn-conoce"
                                             onclick="window.open('https://bruck.com.mx/Search/Index?q=MOTOR&ms=Index', '_blank')">Conoce
                                             más</button>
@@ -201,15 +201,15 @@
                         <div class="col d-flex align-items-center">
                             <div class="product-content">
                                 <div class="product-content-card">
-                                    <h2 class="product-card-title">SUSPENSIÓN Y DIRECCIÓN</h2>
+                                    <h1>SUSPENSIÓN Y DIRECCIÓN</h1>
 
-                                    <p class="product-description">
+                                    <p class="mb-5">
                                         Nuestras autopartes de colisión e interiores están diseñadas con
                                         los mejores materiales, altos estándares de calidad y están
                                         homologadas con equipo original para garantizar su ensamblaje.
                                     </p>
 
-                                    <div class="product-buttons">
+                                    <div class="product-buttons pt-4">
                                         <button class="btn btn-outline-light btn-conoce"
                                             onclick="window.open('https://bruck.com.mx/Search/Index?q=SUSPENSION&ms=Index', '_blank')">Conoce
                                             más</button>
@@ -237,15 +237,15 @@
                         <div class="col d-flex align-items-center">
                             <div class="product-content">
                                 <div class="product-content-card">
-                                    <h2 class="product-card-title">AMORTIGUADORES</h2>
+                                    <h1>AMORTIGUADORES</h1>
 
-                                    <p class="product-description">
+                                    <p class="mb-5">
                                         Nuestras autopartes de colisión e interiores están diseñadas con
                                         los mejores materiales, altos estándares de calidad y están
                                         homologadas con equipo original para garantizar su ensamblaje.
                                     </p>
 
-                                    <div class="product-buttons">
+                                    <div class="product-buttons pt-4">
                                         <button class="btn btn-outline-light btn-conoce">Conoce más</button>
                                         <button class="btn btn-danger btn-descargar">Descargar</button>
                                     </div>
@@ -502,29 +502,6 @@
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     }
 
-    .product-card-title {
-        font-size: 3rem;
-        font-weight: 700;
-        margin-bottom: 30px;
-        line-height: 100%;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-family: var(--font-main);
-        background: linear-gradient(90deg, #ffffff 0%, rgb(50, 148, 187) 50%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-align: left;
-    }
-
-    .product-description {
-        font-size: 1.5rem;
-        line-height: 1.6;
-        margin-bottom: 40px;
-        color: rgba(255, 255, 255, 0.9);
-        text-align: left;
-    }
-
     .product-buttons {
         display: flex;
         gap: 15px;
@@ -589,14 +566,6 @@
         .product-content-card {
             padding: 40px 30px;
             max-width: 100%;
-        }
-
-        .product-card-title {
-            font-size: 2rem;
-        }
-
-        .product-description {
-            font-size: 1rem;
         }
 
         .product-buttons {
