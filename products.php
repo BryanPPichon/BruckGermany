@@ -12,13 +12,12 @@
     <?php
         require_once("header.php");
     ?>
-    <section id="products" class="products-section">
+    <section id="products" class="products-section partners">
         <div class="container-fluid">
             <!-- Título centrado - Movido arriba de todos los slides -->
             <div class="row title-row">
                 <div class="col-12">
-                    <h1 class="product-title"><img src="img/Bruck_icon.png" alt="Bruck Icon" class="bruck-icon">
-                        NUESTRAS AUTOPARTES</h1>
+                    <p class="titleSection product-title">NUESTRAS AUTOPARTES</p>
                 </div>
             </div>
 
@@ -38,7 +37,7 @@
                         <!-- Contenido de la derecha -->
                         <div class="col d-flex align-items-center">
                             <div class="intro-content">
-                                <h2 class="intro-title">CONOCE<br>NUESTROS PRODUCTOS</h2>
+                                <h1>CONOCE<br>NUESTROS PRODUCTOS</h1>
                                 <p class="intro-subtitle">"Innovations for driver safety"</p>
                             </div>
                         </div>
@@ -282,21 +281,7 @@
         position: relative;
         padding-top: 12vh;
         margin-bottom: -12vh;
-    }
-
-    .product-title {
-        font-size: 1.3rem;
-        font-weight: 500;
-        text-transform: uppercase;
-        color: white;
         text-align: center;
-        margin: 0;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-    }
-
-    .product-title.show {
-        opacity: 1;
     }
 
     .slides-container {
@@ -389,29 +374,6 @@
         align-items: flex-start;
         justify-content: center;
         width: 100%;
-    }
-
-    .intro-title {
-        font-size: 4rem;
-        font-weight: 700;
-        line-height: 1.1;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-family: var(--font-main);
-        background: linear-gradient(90deg, #00ffff 0%, #ffffff 30%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        margin-bottom: 20px;
-        text-align: left;
-    }
-
-    .intro-subtitle {
-        font-size: 1.8rem;
-        color: rgba(255, 255, 255, 0.9);
-        margin: 0;
-        text-align: left;
-        font-weight: 500;
     }
 
     .product-image-container {
@@ -527,16 +489,6 @@
         .intro-content {
             align-items: left;
             width: 100%;
-        }
-
-        .intro-title {
-            font-size: 2rem;
-            text-align: left;
-        }
-
-        .intro-subtitle {
-            font-size: 1.1rem;
-            text-align: left;
         }
     }
 
@@ -658,17 +610,9 @@
             min-width: 100px;
             max-width: 150px;
         }
-
-        .product-title {
-            margin-top: 30px;
-        }
     }
 
     @media (max-width: 576px) {
-        .product-title {
-            font-size: 1.2rem;
-            top: 3%;
-        }
 
         .product-buttons {
             gap: 8px;
@@ -704,14 +648,6 @@
             padding: 0 5% 0 3%;
         }
 
-        .intro-title {
-            font-size: 2.5rem;
-        }
-
-        .intro-subtitle {
-            font-size: 1.2rem;
-        }
-
         .intro-image-container {
             padding-left: 2%;
         }
@@ -722,13 +658,6 @@
     }
 
     @media (max-width: 576px) {
-        .intro-title {
-            font-size: 2rem;
-        }
-
-        .intro-subtitle {
-            font-size: 1rem;
-        }
 
         .intro-main-image {
             height: 40vh;
