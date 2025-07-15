@@ -15,7 +15,7 @@
 
     <header>
         <video id="myVideo" preload="auto" loop autoplay playsinline muted class="vid-bg">
-            <source src="video/BrukGermany_Hor-V2.mp4" type="video/mp4">
+            <source src="video/marca_Horizontal.mp4" type="video/mp4">
         </video>
         <?php
             require_once("header.php");
@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 text-center">
+                    <div id="titleabout" class="col-12 text-center">
                         <h4>ACERCA DE</h4>
                         <h1>BRÜK GERMANY</h1>
                     </div>
@@ -46,10 +46,10 @@
         <section id="aboutus" class="aboutus">
             <div class="container">
                 <div class="row aligned-us"> 
-                    <div class="col-12 text-center col-md-4 text-md-end aligned-us">
+                    <div class="col-12 text-center col-md-5 col-lg-4 text-md-end aligned-us">
                         <h1 id="our">Nuestra Gente</h1>
                     </div>
-                    <div class="col-12 text-center col-md-6 offset-md-2 text-md-start aligned-us">
+                    <div class="col-12 text-center col-md-5 col-lg-6 offset-md-2 text-md-start aligned-us">
                         <p>Somos un equipo apasionado, cuya misión es inspirar a futuras generaciones de profesionales y
                                     fortalecer relaciones basadas en la lealtad, el compromiso y la integridad.</p>
                     </div>
@@ -131,7 +131,7 @@
                                     <img src="img/historia.png" class="img-fluid rounded-start" alt="...">
                                 </div>
                                 <div class="col-12 text-center col-md-7 offset-md-2 text-md-start card__inner">
-                                    <div class="col-md-5 text-center text-md-start">
+                                    <div class="col-md-7 col-lg-5 text-center text-md-start">
                                         <h5 class="my-3">HISTORIA</h5>
                                     </div>
                                     <div class="col-md-12">
@@ -153,7 +153,7 @@
                                     <img src="img\Partners.png" class="img-fluid rounded-start" alt="...">
                                 </div>
                                 <div class="col-12 text-center col-md-7 offset-md-2 text-md-start card__inner">
-                                    <div class="col-md-5 text-center text-md-start">
+                                    <div class="col-md-8 col-lg-5 text-center text-md-start">
                                         <h5 class="my-3">PARTNERS</h5>
                                     </div>
                                     <div class="col-md-12">
@@ -239,7 +239,7 @@
                     
 
                     <div class="row m-0">
-                        <div class="col-12 col-md-3 offset-md-1">
+                        <div class="col-12 col-lg-4">
                             <div class="accordion" id="j1">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
@@ -261,7 +261,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-3 offset-md-1">
+                        <div class="col-12 col-lg-4">
                             <div class="accordion" id="j2">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
@@ -283,7 +283,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-3 offset-md-1">
+                        <div class="col-12 col-lg-4">
                             <div class="accordion" id="j3">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
@@ -314,38 +314,41 @@
             <div class="container">
                 <div class="back-contact">
                     <div class="row">
-                        <div class="col-12 col-md-5 text-center text-md-start">
+                        <div class="col-12 col-lg-5 text-center text-md-start">
                             <h3 class="efect">Conecta con Nosotros</h3>
                             <p class="efect my-3">Tu éxito es nuestra prioridad. Si deseas más información sobre nuestros productos,
                                 servicios o establecer una alianza comercial, contáctanos.</p>
-                            <form>
+                            <form action="../php/contact-form.php" method="post" onsubmit="return validateRecaptcha();">
                                 <div class="row">
                                     <div class="col-sm-12" id="result"></div>
-                                    <div class="col-12 col-md-6 mt-3">
+                                    <div class="col-12 col-lg-6 mt-3">
                                         <input type="text" name="userName" placeholder="Nombre" class="form-control"
                                             required="">
                                     </div>
 
-                                    <div class="col-12 col-md-6 mt-3">
+                                    <div class="col-12 col-lg-6 mt-3">
                                         <input type="text" name="lastName" placeholder="Apellido" class="form-control"
                                             required="">
                                     </div>
 
-                                    <div class="col-12 col-md-6 mt-3">
+                                    <div class="col-12 col-lg-6 mt-3">
                                         <input type="email" name="userEmail" placeholder="Email *" class="form-control"
                                             required="">
                                     </div>
 
-                                    <div class="col-12 col-md-6 mt-3">
+                                    <div class="col-12 col-lg-6 mt-3">
                                         <input type="number" name="phone" placeholder="Número de teléfono"
                                             class="form-control" required="">
                                     </div>
                                 </div>
 
-                                <div class="col-12 col-md-12 mt-3">
+                                <div class="col-12 mt-3">
                                     <textarea class="form-control" name="userMessage" placeholder="Mensaje" rows="6" required=""
                                         spellcheck="false" data-ms-editor="true"></textarea>
+                                </div>
 
+                                <div class="col-12 col-md-12 mt-3">
+                                    <div class="g-recaptcha p-0" id="recaptcha" data-sitekey="6LfBrBcqAAAAAPcZI_ZfxHsBNFq5ZmRBZWkISdpV"></div>
                                 </div>
 
                                 <div class="col-12 col-md-12 mt-3">
@@ -355,7 +358,7 @@
                                 </div>
                              </form>
                         </div>
-                        <div class="col-12 col-md-6 offset-md-1">
+                        <div class="col-12 col-lg-6 offset-lg-1">
                             <div id="map"></div>
                         </div>
                     </div>
