@@ -7,8 +7,7 @@
                         <img src="img/300_B&R.png" class="py-3" width="25%" alt="">
                     </a>
                         <p class="efect m-3 mx-lg-0">
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                            consequat duis enim velit mollit.
+                            ¡Estamos listos para ayudarte a llevar tu negocio al siguiente nivel!
                         </p>
                     
                     <div class="w-100 logos">
@@ -22,11 +21,21 @@
                                 <img src="img/instagram_logo.png" width="15" alt="instagram">
                             </a>
                         </div>
-                        <div class="whatsapp">
+                        <div class="linkedin">
+                            <a href="#" target="_blank">
+                                <img src="img/linkedin.png" width="15" alt="linkedin">
+                            </a>
+                        </div>
+                        <div class="tiktok">
+                            <a href="#" target="_blank">
+                                <img src="img/tiktok.png" width="15" alt="tiktok">
+                            </a>
+                        </div>
+                        <!-- <div class="whatsapp">
                             <a href="#" target="_blank">
                                 <img src="img/whatsapp_logo.png" width="15" alt="whatsapp">
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -47,7 +56,7 @@
                         <a class="" href="products.php">tech</a>
                     </div>
                     <div class="">
-                        <a class="" href="#tech">Cultura</a>
+                        <a class="" href="#tech">Historia</a>
                     </div>
                     <div class="">
                         <a class="" href="#partners">Valores</a>

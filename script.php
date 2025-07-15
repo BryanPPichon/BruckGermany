@@ -17,7 +17,7 @@
 <!-- loader -->
 <script src="js/loader.js"></script>
 <script src="js/hidenav.js"></script>
-<script src="js/auto.js"></script>
+<!-- <script src="js/auto.js"></script> -->
 <script src="js/recaptcha.js"></script>
 <script src="js/cursor.js"></script>
 <script src="js/video.js"></script>
@@ -33,13 +33,17 @@
 
         var options = {
 
-            whatsapp: "5212223330818", // WhatsApp number
+            //whatsapp: "5212223330818", // WhatsApp number
 
             facebook: "bruckgermany", // url
 
             instagram: "bruck_germany", // url
 
-            email: "info@bruck.com.mx", // Email
+            tiktok: "bruck_germany",
+
+            linkedin: "https://www.linkedin.com/company/bruck-germany/",
+
+            email: "contacto@bruckgermany.com", // Email
 
             call_to_action: false, // Call to actionx 
 
@@ -47,7 +51,7 @@
 
             position: "right", // Position may be 'right' or 'left'
 
-            order: "whatsapp", // Order of buttons
+            order: "email", // Order of buttons
 
             button: "92px",
 

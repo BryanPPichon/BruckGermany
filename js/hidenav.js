@@ -19,3 +19,18 @@ document.addEventListener("mouseover", function(event) {
         navbar.classList.remove("visible");
     }
 });
+
+
+
+
+$(document).on('scroll',function(){
+    if($(document).scrollTop()>=$('#aboutus').offset().top && $(document).scrollTop()<$('#partners').offset().top){ //assuming the about section has an id called about (#about)
+        $('#logob').attr("src","img/bruck_200.png");
+    }
+    else if($(document).scrollTop()>=$('#visiontxt').offset().top && $(document).scrollTop()<$('#mision').offset().top){
+        $('#logob').attr("src","img/bruck_200.png");
+    }
+    else{
+        $('#logob').attr("src","img/200_B&R.png");
+    }
+});
