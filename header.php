@@ -1,3 +1,4 @@
+<header class="">
 <nav class="navbar navbar-expand-lg header-hover-zone fixed-top" id="navbar">
     <a class="navbar-brand mx-3 ml-md-4 col-3 text-center" href="index.php">
         <img src="img/200_B&R.png" alt="Brück Germany">
