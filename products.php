@@ -344,7 +344,7 @@
     }
 
     .intro-slide {
-        background: linear-gradient(135deg, #1a2332 0%, #2d3748 50%, #1a2332 100%);
+        background: transparent;
     }
 
     .intro-image-container {
