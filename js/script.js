@@ -7,7 +7,7 @@
     document.addEventListener('DOMContentLoaded', function() {
       var video = document.getElementById('myVideo');
       if (detectDevice()) {
-        video.src = 'video/BruckGermany_Vert-V2.mp4';
+        video.src = 'video/marca_Vertical.mp4';
       }
     });
 

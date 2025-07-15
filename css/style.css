@@ -464,6 +464,13 @@ li {
         font-size: 1.15rem;
     }
 }
+
+@media screen and (max-width:800px) {
+    li {
+        margin: 0;
+        font-size: 1.15rem;
+    }
+}
 /***********************************************************************************/
 /*********************************** Components ************************************/
 /***********************************************************************************/
@@ -656,6 +663,7 @@ li {
     text-align: center;
     border-radius: 16px;
     margin-right: 5px;
+    transition: background 2s;
 }
 
 .footer .face:hover {
@@ -672,6 +680,7 @@ li {
     text-align: center;
     border-radius: 16px;
     margin-right: 5px;
+    transition: background 2s;
 }
 
 .footer .insta:hover {
@@ -688,6 +697,7 @@ li {
     text-align: center;
     border-radius: 16px;
     margin-right: 5px;
+    transition: background 2s;
 }
 
 .footer .whatsapp:hover {
@@ -1648,10 +1658,12 @@ li {
 
     .aboutus p {
         font-size: 1.15rem;
+        line-height: 1.8rem;
+        margin: 1.5rem 0;
     }
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 800px) {
     .adn-text-container {
         margin-left: 0;
         /* font-size: 0.75rem; */
@@ -1674,6 +1686,16 @@ li {
     #adn p.nosotros {
         text-align: right;
         margin-right: 20%;
+    }
+
+    #adn img {
+        width: 45%;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+
+    .aboutus h1 {
+        font-size: 3.46rem;
     }
 }
 
@@ -1703,7 +1725,19 @@ li {
     }
 
     #adn img {
-        top: 45%;
+        width: 45%;
+        margin-top: 8%;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1399px) {
+    #adn img {
+        width: 45%;
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+    .aboutus h1 {
+    font-size: 4.3rem;
     }
 }
 
@@ -1954,13 +1988,9 @@ li {
     }
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 800px) {
     #contact input {
-        width: 95%;
-    }
-
-    .contact {
-        height: 85vh;
+        width: 100%;
     }
 
     .category p.productos {
@@ -1986,9 +2016,7 @@ li {
     }
 
     .contact_form {
-        right: 15%;
-        padding: 0 10px;
-        width: 55%;
+        width: 100%;
     }
 
     .contact h1 {
@@ -2002,11 +2030,11 @@ li {
     }
 
     .contact textarea {
-        width: 55%;
+        width: 100%;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 801px) and (max-width: 992px) {
 
     .category p.productos {
         font-size: 40px;
@@ -2041,7 +2069,7 @@ li {
     .contact_form {
         right: 15%;
         padding: 0 10px;
-        width: 55%;
+        width: 100%;
     }
 
     .contact h1 {
@@ -2131,7 +2159,7 @@ header>.container {
 
 .headdown span {
     font-weight: 400;
-    font-size: 1.15rem;
+    font-size: 1rem;
     color: var(--white);
     letter-spacing: 2px;
 }
@@ -2374,7 +2402,7 @@ h1.empresa-mexicana {
     }
 
     .menu a {
-        font-size: 0.8rem;
+        font-size: 1.15rem;
     }
 }
 
@@ -2601,12 +2629,20 @@ input {
     width: 100%;
 }
 
+@media screen and (max-width:800px) {
+    #map {
+        min-height: 100vh;
+        margin-top: 3rem;
+    }
+}
+
+
 /************************************** N **************************************/
 .navbar {
     background-color: rgba(21, 19, 21, 0.03);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    border-bottom: 1px solid rgba(51, 55, 65, 1);
+    border-bottom: 1px solid rgba( 255, 255, 255, 1);
     color: white;
     text-transform: none;
     position: fixed !important;
@@ -2649,6 +2685,12 @@ input {
 
 .navbar-toggler {
     border-color: rgba(255, 255, 255, 0.1);
+    padding: 0.75rem;
+    border-radius: 50px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 .navbar-toggler-icon {
@@ -2684,12 +2726,12 @@ a.nav-link:hover {
 
 @media screen and (max-width:576px) {
     .navbar-nav {
-        margin-left: auto;
+        width: 100%;
         background-color: rgba(21, 19, 21, 0.8);
         -webkit-backdrop-filter: blur(5px);
         backdrop-filter: blur(5px);
         border-bottom: 1px solid rgba(51, 55, 65, 1);
-        margin: 32px auto;
+        margin: 25px auto;
     }
 
     .dropdown-menu {
@@ -2719,6 +2761,15 @@ a.nav-link:hover {
         font-size: 12px;
     }
 
+    .navbar-nav {
+        width: 100%;
+        background-color: rgba(21, 19, 21, 0.8);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        border-bottom: 1px solid rgba(51, 55, 65, 1);
+        margin: 25px auto;
+    }
+
     .navbar li {
         text-align: center;
     }
@@ -2728,7 +2779,7 @@ a.nav-link:hover {
     }
 
     nav ul li a {
-        font-size: 16px;
+        font-size: 1.9rem;
     }
 }
 
@@ -2840,7 +2891,11 @@ a.nav-link:hover {
     }
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {}
+@media screen and (min-width: 577px) and (max-width: 800px) {
+    .over-loader h2 {
+        line-height: 63px;
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {}
 
@@ -3057,7 +3112,7 @@ p.conoce-sobre {
     }
 
     .partners #listvalue {
-        height: 150vh;
+        height: 75vh;
     }
 
     .partners h1 {
@@ -3241,7 +3296,7 @@ p.conoce-sobre {
 
 .scroll-down {
     position: absolute;
-    bottom: 4%;
+    bottom: 0;
     left: 0;
     width: 100%;
 }
@@ -3684,7 +3739,7 @@ textarea {
     }
 
     .tech h5 {
-        font-size: 1.3rem;
+        font-size: 3rem;
     }
 
     .tech h5::after {
@@ -3692,12 +3747,16 @@ textarea {
     }
 
     .tech p {
-        font-size: 0.9rem;
-        line-height: normal;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
     }
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {}
+@media screen and (min-width: 577px) and (max-width: 800px) {
+    .tech h5::after {
+        margin: 0;
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {}
 
@@ -3708,8 +3767,8 @@ textarea {
 .vid-bg {
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .values .container {
@@ -3737,11 +3796,12 @@ textarea {
     color: #FFF;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-blend-mode: hard-light;
+    transition: background-size 0.3s ease-in-out;
 }
 
 .values .vision {
@@ -3751,16 +3811,17 @@ textarea {
     color: #FFF;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-blend-mode: hard-light;
+    transition: background-size 0.3s ease-in-out;
 }
 
 .values .mision:hover,
-.values .vision:hover {
-    transition-duration: 6s;
+.values .vision:hover {/* 
+    transition-duration: 6s; */
     background-size: 110%;
 }
 
@@ -3794,9 +3855,9 @@ textarea {
     }
 
     .values p {
-        font-size: 0.8rem;
+        font-size: 1.15rem;
         line-height: 28px;
-        padding: 0 40px;
+        padding: 20px 40px;
     }
 
     .values .mision:hover, .values .vision:hover {
@@ -3820,13 +3881,31 @@ textarea {
     }
 
     .vid-bg {
-    height: 100vh;
+        width: 100vw;
+        height: 100vh;
     }
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {}
+@media screen and (min-width: 577px) and (max-width: 800px) {
+    .values .container {
+        height: 200vh;
+    }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {}
+    .values p {
+        padding: 20px;
+    }
+    .values .mision:hover, .values .vision:hover {
+        background-size: 170%;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 992px) {}
+
+@media screen and (min-width: 993px) and (max-width: 1399px) {
+    .values .container {
+        height: 200vh;
+    }
+}
 
 @media screen and (min-width:1441px) {}
 

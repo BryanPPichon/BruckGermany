@@ -1,41 +1,41 @@
 <header class="">
 <nav class="navbar navbar-expand-lg header-hover-zone fixed-top" id="navbar">
-    <a class="navbar-brand ml-4 col-3 text-center" href="index.php">
+    <a class="navbar-brand mx-3 ml-md-4 col-3 text-center" href="index.php">
         <img src="img/200_B&R.png" alt="Brück Germany">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    <button class="navbar-toggler mx-3 mx-md-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto d-flex flex-column flex-lg-row justify-content-left col-9">
-            <li class="nav-item mx-md-3">
-                <a class="nav-link" href="#adn">ADN</a>
+            <li class="nav-item m-0 mx-md-3">
+                <a class="nav-link" href="#titleabout">ADN</a>
             </li>
-            <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="products.php" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Productos
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="products.php#slide-1">Colisión e interiores</a></li>
-                    <li><a class="dropdown-item" href="products.php#slide-2">Eléctrico</a></li>
-                    <li><a class="dropdown-item" href="products.php#slide-3">Frenos & clutch</a></li>
-                    <li><a class="dropdown-item" href="products.php#slide-4">Motor</a></li>
-                    <li><a class="dropdown-item" href="products.php#slide-5">Suspensión y dirección</a></li>
-                    <li><a class="dropdown-item" href="products.php#slide-6">Amortiguadores</a></li>
-                  </ul>
-                </li>
+            <li class="nav-item dropdown m-0">
+              <a class="nav-link dropdown-toggle" href="products.php" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="products.php#slide-1">Colisión e interiores</a></li>
+                <li><a class="dropdown-item" href="products.php#slide-2">Eléctrico</a></li>
+                <li><a class="dropdown-item" href="products.php#slide-3">Frenos & clutch</a></li>
+                <li><a class="dropdown-item" href="products.php#slide-4">Motor</a></li>
+                <li><a class="dropdown-item" href="products.php#slide-5">Suspensión y dirección</a></li>
+                <li><a class="dropdown-item" href="products.php#slide-6">Amortiguadores</a></li>
+              </ul>
+            </li>
             
-            <li class="nav-item mx-md-3">
-                <a class="nav-link" href="#partners">Partners</a>
+            <li class="nav-item m-0 mx-md-3">
+                <a class="nav-link" href="#aboutus">Partners</a>
             </li>
-            <li class="nav-item mx-md-3">
-                <a class="nav-link" href="#tech">Tecnología</a>
+            <li class="nav-item m-0 mx-md-3">
+                <a class="nav-link" href="products.php">Tecnología</a>
             </li>
-            <li class="nav-item mx-md-3">
+            <li class="nav-item m-0 mx-md-3">
                 <a class="nav-link" href="#carrers">Carreras</a>
             </li>
-            <li class="nav-item mx-md-3">
+            <li class="nav-item m-0 mx-md-3">
                 <a class="nav-link" href="#contact">Contacto</a>
             </li>
         </ul>
@@ -57,20 +57,20 @@
                 <div class="col-3 offset-1">
                     <p id="hdx">X:0 Y:0</p>
                 </div>
-                <div class="col-4">
+                <div class="col-3">
                 </div>
-                <div class="col-3 text-end">
+                <div class="col-4 text-end">
                     <a href="javascript:void();" class="audio-control">
                         <img src="img/Mute.png" width="20" alt="">
                         <span class="text-center">SONIDO</span></a>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row mt-2">
                 <div class="col-12 text-center">
                     <p>SCROLL PARA EXPLORAR</p>
                     <a href="#adn">
-                        <img src="img/Arrow.png" class="arrow-scroll my-3" width="20" alt="">
+                        <img src="img/Arrow.png" class="arrow-scroll my-3" width="15" alt="">
                     </a>
                 </div>
             </div>
