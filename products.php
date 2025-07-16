@@ -227,38 +227,7 @@
                         </div>
                     </div>
 
-                    <!-- Sexta sección - Amortiguadores -->
-                    <div class="product-slide" id="slide-6">
-                        <div class="row align-items-center min-vh-100">
-                            <!-- Imagen de la izquierda -->
-                            <div class="col-auto p-0">
-                                <div class="product-image-container">
-                                    <img src="img/amortiguadores.png" alt="Amortiguadores"
-                                        class="img-fluid product-main-image rotated-amortiguadores">
-                                </div>
-                            </div>
-
-                            <!-- Contenido de la derecha -->
-                            <div class="col d-flex align-items-center">
-                                <div class="product-content">
-                                    <div class="product-content-card">
-                                        <h2 class="product-card-title">AMORTIGUADORES</h2>
-
-                                        <p class="product-description">
-                                            Nuestras autopartes de colisión e interiores están diseñadas con
-                                            los mejores materiales, altos estándares de calidad y están
-                                            homologadas con equipo original para garantizar su ensamblaje.
-                                        </p>
-
-                                        <div class="product-buttons">
-                                            <button class="btn btn-outline-light btn-conoce">Conoce más</button>
-                                            <button class="btn btn-danger btn-descargar">Descargar</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -443,7 +412,7 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         font-family: var(--font-main);
-        background: linear-gradient(90deg, #00ffff 0%, #ffffff 30%);
+        background: linear-gradient(90deg, #ffffff 0%, #ffffff 30%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -497,7 +466,10 @@
 
     @media (max-width: 1660px) {
         .intro-main-image {
-            height: 40vh;
+            height: 20vh;
+        }
+        .intro-title {
+            font-size: 3rem;
         }
     }
 
@@ -763,7 +735,7 @@
         }
 
         .intro-main-image {
-            height: 45vh;
+            height: 18vh;
         }
     }
 
@@ -778,6 +750,7 @@
 
         .intro-main-image {
             height: 40vh;
+            display:none;
         }
     }
 
@@ -1120,8 +1093,6 @@
                         return slide4;
                     case 5:
                         return slide5;
-                    case 6:
-                        return slide6;
                     default:
                         return slide0;
                 }
