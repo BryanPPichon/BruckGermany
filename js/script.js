@@ -11,7 +11,7 @@
       }
     });
 
-    // Función para generar un número aleatorio entre min y max
+/*     // Función para generar un número aleatorio entre min y max
             function randomBetween(min, max) {
                 return Math.random() * (max - min) + min;
             }
@@ -103,4 +103,4 @@
                     createRandomSphereAnimation(sphere11);
                     createRandomSphereAnimation(sphere12);
                 });
-            }
+            } */
