@@ -473,13 +473,6 @@ li {
         margin: 15px 0;
     }
 }
-
-@media screen and (max-width:800px) {
-    li {
-        margin: 0;
-        font-size: 1.15rem;
-    }
-}
 /***********************************************************************************/
 /*********************************** Components ************************************/
 /***********************************************************************************/
@@ -1834,19 +1827,7 @@ li {
     }
 
     #adn img {
-        width: 45%;
-        margin-top: 8%;
-    }
-}
-
-@media screen and (min-width: 993px) and (max-width: 1399px) {
-    #adn img {
-        width: 45%;
-        margin-top: 5%;
-        margin-left: 15%;
-    }
-    .aboutus h1 {
-    font-size: 4.3rem;
+        top: 45%;
     }
 }
 
@@ -2891,15 +2872,6 @@ a.nav-link:hover {
         --bs-navbar-nav-link-padding-x: 0.5rem;
         font-size: 12px;
         opacity: 1;
-    }
-
-    .navbar-nav {
-        width: 100%;
-        background-color: rgba(21, 19, 21, 0.8);
-        -webkit-backdrop-filter: blur(5px);
-        backdrop-filter: blur(5px);
-        border-bottom: 1px solid rgba(51, 55, 65, 1);
-        margin: 25px auto;
     }
 
     .navbar-nav {
@@ -4037,7 +4009,6 @@ textarea {
     .vid-bg {
         width: 100vw;
         height: 100vh;
-
     }
 }
 
