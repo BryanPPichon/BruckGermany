@@ -287,21 +287,7 @@
         position: relative;
         padding-top: 12vh;
         margin-bottom: -12vh;
-    }
-
-    .product-title {
-        font-size: 1.3rem;
-        font-weight: 500;
-        text-transform: uppercase;
-        color: white;
         text-align: center;
-        margin: 0;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-    }
-
-    .product-title.show {
-        opacity: 1;
     }
 
     .slides-container {
@@ -574,16 +560,6 @@
             align-items: left;
             width: 100%;
         }
-
-        .intro-title {
-            font-size: 2rem;
-            text-align: left;
-        }
-
-        .intro-subtitle {
-            font-size: 1.1rem;
-            text-align: left;
-        }
     }
 
     .product-content-card {
@@ -594,29 +570,6 @@
         text-align: left;
         width: 100%;
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    }
-
-    .product-card-title {
-        font-size: 3rem;
-        font-weight: 700;
-        margin-bottom: 30px;
-        line-height: 100%;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-family: var(--font-main);
-        background: linear-gradient(90deg, #ffffff 0%, rgb(50, 148, 187) 50%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-align: left;
-    }
-
-    .product-description {
-        font-size: 1.5rem;
-        line-height: 1.6;
-        margin-bottom: 40px;
-        color: rgba(255, 255, 255, 0.9);
-        text-align: left;
     }
 
     .product-buttons {
@@ -685,14 +638,6 @@
             max-width: 100%;
         }
 
-        .product-card-title {
-            font-size: 2rem;
-        }
-
-        .product-description {
-            font-size: 1rem;
-        }
-
         .product-buttons {
             gap: 10px;
         }
@@ -704,17 +649,9 @@
             min-width: 100px;
             max-width: 150px;
         }
-
-        .product-title {
-            margin-top: 30px;
-        }
     }
 
     @media (max-width: 576px) {
-        .product-title {
-            font-size: 1.2rem;
-            top: 3%;
-        }
 
         .product-buttons {
             gap: 8px;
@@ -750,14 +687,6 @@
             padding: 0 5% 0 3%;
         }
 
-        .intro-title {
-            font-size: 2.5rem;
-        }
-
-        .intro-subtitle {
-            font-size: 1.2rem;
-        }
-
         .intro-image-container {
             padding-left: 2%;
         }
@@ -768,13 +697,6 @@
     }
 
     @media (max-width: 576px) {
-        .intro-title {
-            font-size: 2rem;
-        }
-
-        .intro-subtitle {
-            font-size: 1rem;
-        }
 
         .intro-main-image {
             height: 40vh;
