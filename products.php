@@ -263,7 +263,7 @@
             </div>
         </div>
 
-        <!-- Esferas animadas -->
+        <!-- Esferas animadas 
         <div class="floating-sphere sphere-1">
             <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
         </div>
@@ -272,7 +272,7 @@
         </div>
         <div class="floating-sphere sphere-3">
             <img src="img/Esfera.png" alt="Esfera" class="sphere-image">
-        </div>
+        </div>-->
     </section>
 
     <style>
@@ -457,6 +457,7 @@
         margin: 0;
         text-align: left;
         font-weight: 500;
+        line-height: 35px;
     }
 
     .product-image-container {
@@ -484,7 +485,7 @@
     }
 
     .product-content {
-        padding: 0 20% 0 20px;
+        padding: 0 12% 0 20px;
         color: white;
         position: relative;
         z-index: 10;

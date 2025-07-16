@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto d-flex flex-column flex-lg-row justify-content-left col-9">
             <li class="nav-item m-0 mx-md-3">
-                <a class="nav-link" href="#titleabout">ADN</a>
+                <a class="nav-link" href="index.php#titleabout">ADN</a>
             </li>
             <li class="nav-item dropdown m-0">
               <a class="nav-link dropdown-toggle" href="products.php" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -26,16 +26,16 @@
             </li>
             
             <li class="nav-item m-0 mx-md-3">
-                <a class="nav-link" href="#aboutus">Partners</a>
+                <a class="nav-link" href="index.php#aboutus">Partners</a>
             </li>
             <li class="nav-item m-0 mx-md-3">
                 <a class="nav-link" href="products.php">Tecnología</a>
             </li>
             <li class="nav-item m-0 mx-md-3">
-                <a class="nav-link" href="#tech">Historia</a>
+                <a class="nav-link" href="index.php#tech">Historia</a>
             </li>
             <li class="nav-item m-0 mx-md-3">
-                <a class="nav-link" href="#contact">Contacto</a>
+                <a class="nav-link" href="index.php#map">Contacto</a>
             </li>
         </ul>
     </div>

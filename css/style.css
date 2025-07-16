@@ -1690,6 +1690,15 @@ li {
 }
 
 @media screen and (max-width:576px) {
+    .aboutus #our::after {
+        right: 15px;
+        width: 29%;
+    }
+
+    .aligned-us {
+        min-height: 90vh;
+    }
+
     #adn h4 {
         line-height: 48px;
         margin-bottom: 2rem;
@@ -1744,6 +1753,15 @@ li {
 }
 
 @media screen and (min-width: 577px) and (max-width: 800px) {
+    .aboutus #our::after {
+        right: 28px;
+        width: 29%;
+    }
+
+    .aligned-us {
+        min-height: 90vh;
+    }
+
     .adn-text-container {
         margin-left: 0;
         /* font-size: 0.75rem; */
@@ -1889,9 +1907,9 @@ li {
 /************************************** C **************************************/
 
 
-.carrers {
+/* .carrers {
     margin: 10rem 0;
-}
+} */
 
 .carrers .container {}
 
@@ -2849,6 +2867,7 @@ a.nav-link:hover {
         background-color: var(--dark);
         --bs-navbar-nav-link-padding-x: 0.5rem;
         font-size: 12px;
+        opacity: 1;
     }
 
     .navbar-nav {
@@ -3204,7 +3223,7 @@ p.conoce-sobre {
     }
 
     .partners #listvalue {
-        height: 100vh;
+        height: 130vh;
     }
 
     .partners h1 {
@@ -3840,7 +3859,8 @@ textarea {
     }
 
     .tech h5::after {
-        width: 60%;
+        width: 40%;
+        margin: 0 40px;
     }
 
     .tech p {
@@ -3856,6 +3876,7 @@ textarea {
 @media screen and (min-width: 577px) and (max-width: 800px) {
     .tech h5::after {
         margin: 0;
+        right: 20px;
     }
 }
 
@@ -3949,7 +3970,7 @@ textarea {
     }
 
     .values{
-        padding: 1rem;
+        padding: 1rem 0;
         height: inherit;
     }
 

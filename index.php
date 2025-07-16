@@ -74,17 +74,16 @@ Con Brück Germany no solo obtienes piezas de excelencia, te integras a una comu
                         <ul>
                             <li class="efect"><strong>Respeto y Honestidad:</strong> Valoramos la sinceridad y el trato justo en cada
                                 interacción.</li>
-                            <li class="efect"><strong>Buen Trato y Preocupación Verdadera:</strong> Cuidamos a nuestra gente como en
-                                casa, favoreciendo su desarrollo profesional y bienestar.</li>
                             <li class="efect"><strong>Colaboración y Compañerismo:</strong> Creemos en la fuerza del trabajo en equipo
                                 y en el apoyo mutuo.</li>
+                            <li class="efect"><strong>Responsabilidad Social:</strong> Contribuimos con acciones positivas que mejoran
+                                la calidad de vida de nuestras comunidades.</li>
                         </ul>
                     </div>
 
                     <div class="col-12 col-lg-5 offset-lg-2">
                         <ul>
-                            <li class="efect"><strong>Responsabilidad Social:</strong> Contribuimos con acciones positivas que mejoran
-                                la calidad de vida de nuestras comunidades.</li>
+                            
                             <li class="efect"><strong>Innovación e Inclusión:</strong> Impulsamos ideas transformadoras y abrimos
                                 espacios para todos, asegurando equidad y fidelidad.</li>
                             <li class="efect"><strong>Excelencia y Confianza:</strong> Mantenemos la promesa de ser la mejor opción de

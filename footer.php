@@ -3,7 +3,7 @@
         <div class="col-12 col-lg-4 offset-md-1">
             <div class="row">
                 <div class="col-12 col-md-8 text-center text-md-start footer-net">
-                    <a href="">
+                    <a href="index.php">
                         <img src="img/300_B&R.png" class="py-3" width="25%" alt="">
                     </a>
                         <p class="efect m-3 mx-lg-0">
@@ -22,12 +22,12 @@
                             </a>
                         </div>
                         <div class="linkedin">
-                            <a href="#" target="_blank">
+                            <a href="https://www.linkedin.com/company/bruck-germany/" target="_blank">
                                 <img src="img/linkedin.png" width="15" alt="linkedin">
                             </a>
                         </div>
                         <div class="tiktok">
-                            <a href="#" target="_blank">
+                            <a href="https://www.tiktok.com/@bruck_germany" target="_blank">
                                 <img src="img/tiktok.png" width="15" alt="tiktok">
                             </a>
                         </div>
@@ -47,19 +47,19 @@
                 <div class="col-12 col-md-5 col-lg-3 text-center text-md-start">
                     <h3 class="efect">ADN</h3>
                     <div class="">
-                        <a class="" href="#values">Misión</a>
+                        <a class="" href="index.php#values">Misión</a>
                     </div>
                     <div class="">
-                        <a class="" href="#values">Visión</a>
+                        <a class="" href="index.php#values">Visión</a>
                     </div>
                     <div class="">
-                        <a class="" href="products.php">tech</a>
+                        <a class="" href="products.php">Productos</a>
                     </div>
                     <div class="">
-                        <a class="" href="#tech">Historia</a>
+                        <a class="" href="index.php#tech">Historia</a>
                     </div>
                     <div class="">
-                        <a class="" href="#partners">Valores</a>
+                        <a class="" href="index.php#partners">Valores</a>
                     </div>
                 </div>
                 <!--SEGUNDA COLUMNA-->
@@ -67,13 +67,13 @@
                 <div class="col-12 col-md-5 col-lg-3 text-center text-md-start">
                     <h3 class="efect">PARTNERS</h3>
                     <div class="">
-                        <a class="" href="#titleabout">Equipo</a>
+                        <a class="" href="index.php#titleabout">Equipo</a>
                     </div>
                     <div class="">
-                        <a class="" href="#aboutus">Socios</a>
+                        <a class="" href="index.php#aboutus">Socios</a>
                     </div>
                     <div class="">
-                        <a class="" href="#aboutus">Cadena de valor</a>
+                        <a class="" href="index.php#aboutus">Cadena de valor</a>
                     </div>
                 </div>
                 
@@ -104,10 +104,10 @@
                 <div class="col-12 col-md-5 col-lg-3 text-center text-md-start">
                     <h3 class="efect">CARRERAS</h3>
                     <div class="">
-                        <a class="" href="#carrers">Bolsa de trabajo</a>
+                        <a class="" href="index.php#carrers">Bolsa de trabajo</a>
                     </div>
                     <div class="">
-                        <a class="" href="#carrers">Registro vacantes </a>
+                        <a class="" href="index.php#carrers">Registro vacantes </a>
                     </div>
                 </div>
             </div>
