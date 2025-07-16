@@ -428,5 +428,4 @@ Con Brück Germany no solo obtienes piezas de excelencia, te integras a una comu
         require_once("script.php");
     ?>
 </body>
-
 </html>
