@@ -1,14 +1,13 @@
 <footer class="footer">
     <div class="row">
-        <div class="col-12 col-md-4 offset-md-1">
+        <div class="col-12 col-lg-4 offset-md-1">
             <div class="row">
                 <div class="col-12 col-md-8 text-center text-md-start footer-net">
                     <a href="">
                         <img src="img/300_B&R.png" class="py-3" width="25%" alt="">
                     </a>
-                        <p class="efect my-3">
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                            consequat duis enim velit mollit.
+                        <p class="efect m-3 mx-lg-0">
+                            ¡Estamos listos para ayudarte a llevar tu negocio al siguiente nivel!
                         </p>
                     
                     <div class="w-100 logos">
@@ -22,79 +21,93 @@
                                 <img src="img/instagram_logo.png" width="15" alt="instagram">
                             </a>
                         </div>
-                        <div class="whatsapp">
+                        <div class="linkedin">
+                            <a href="#" target="_blank">
+                                <img src="img/linkedin.png" width="15" alt="linkedin">
+                            </a>
+                        </div>
+                        <div class="tiktok">
+                            <a href="#" target="_blank">
+                                <img src="img/tiktok.png" width="15" alt="tiktok">
+                            </a>
+                        </div>
+                        <!-- <div class="whatsapp">
                             <a href="#" target="_blank">
                                 <img src="img/whatsapp_logo.png" width="15" alt="whatsapp">
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6">
-            <div class="row">
+        <div class="col-12 col-lg-6">
+            <div class="row mx-5">
                 <!--PRIMERA COLUMNA-->
-                <div class="col-12 col-md-3 text-center text-md-start">
+                
+                <div class="col-12 col-md-5 col-lg-3 text-center text-md-start">
                     <h3 class="efect">ADN</h3>
                     <div class="">
-                        <a class="" href="#mision">Misión</a>
+                        <a class="" href="#values">Misión</a>
                     </div>
                     <div class="">
-                        <a class="" href="#vision">Visión</a>
+                        <a class="" href="#values">Visión</a>
                     </div>
                     <div class="">
-                        <a class="" href="#history">Historia</a>
+                        <a class="" href="products.php">tech</a>
                     </div>
                     <div class="">
-                        <a class="" href="#culture">Cultura</a>
+                        <a class="" href="#tech">Historia</a>
                     </div>
                     <div class="">
-                        <a class="" href="#values">Valores</a>
+                        <a class="" href="#partners">Valores</a>
                     </div>
                 </div>
                 <!--SEGUNDA COLUMNA-->
-                <div class="col-12 col-md-3 text-center text-md-start">
+                
+                <div class="col-12 col-md-5 col-lg-3 text-center text-md-start">
                     <h3 class="efect">PARTNERS</h3>
                     <div class="">
-                        <a class="" href="">Equipo</a>
+                        <a class="" href="#titleabout">Equipo</a>
                     </div>
                     <div class="">
-                        <a class="" href="">Socios</a>
+                        <a class="" href="#aboutus">Socios</a>
                     </div>
                     <div class="">
-                        <a class="" href="">Cadena de valor</a>
+                        <a class="" href="#aboutus">Cadena de valor</a>
                     </div>
                 </div>
+                
                 <!--TERCERA COLUMNA-->
-                <div class="col-12 col-md-3 text-center text-md-start">
+                <div class="col-12 col-md-5 col-lg-3 text-center text-md-start">
                     <h3 class="efect">PRODUCTOS</h3>
                     <div class="">
-                        <a class="" href="">Colisión e interiores</a>
+                        <a class="" href="products.php#slide-1">Colisión e interiores</a>
                     </div>
                     <div class="">
-                        <a class="" href="">Eléctrico</a>
+                        <a class="" href="products.php#slide-2">Eléctrico</a>
                     </div>
                     <div class="">
-                        <a class="" href="">Frenos y clutch</a>
+                        <a class="" href="products.php#slide-3">Frenos y clutch</a>
                     </div>
                     <div class="">
-                        <a class="" href="">Motor</a>
+                        <a class="" href="products.php#slide-4">Motor</a>
                     </div>
                     <div class="">
-                        <a class="" href="">Suspensión y dirección</a>
+                        <a class="" href="products.php#slide-5">Suspensión y dirección</a>
                     </div>
                     <div class="">
-                        <a class="" href="">Amortiguadores </a>
+                        <a class="" href="products.php#slide-6">Amortiguadores </a>
                     </div>
                 </div>
-                <!--TERCERA COLUMNA-->
-                <div class="col-12 col-md-3 text-center text-md-start">
+                
+                <!--CUARTA COLUMNA-->
+                <div class="col-12 col-md-5 col-lg-3 text-center text-md-start">
                     <h3 class="efect">CARRERAS</h3>
                     <div class="">
-                        <a class="" href="">Bolsa de trabajo</a>
+                        <a class="" href="#carrers">Bolsa de trabajo</a>
                     </div>
                     <div class="">
-                        <a class="" href="">Registro vacantes </a>
+                        <a class="" href="#carrers">Registro vacantes </a>
                     </div>
                 </div>
             </div>
@@ -105,10 +118,10 @@
     </div>
     <!-- Leyenda en nueva fila con fondo negro y letras blancas -->
     <div class="row my-5">
-        <div class="col-12 col-md-4 offset-md-4 text-center">
+        <div class="col-12 col-md-6 offset-md-3 text-center">
             © Copyright 2025, All Rights Reserved by Brük Germany
         </div>
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-12 col-md-3 text-center">
             By VmasIdeas
         </div>
     </div>

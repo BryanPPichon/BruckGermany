@@ -17,12 +17,12 @@
 	$mail->SMTPSecure = "ssl"; 
 	$mail->Username = "pruebaphp@vmasideas.agency"; 
 	$mail->Password = "Pruebaphp";
-	//$mail->AddReplyTo('bryan.pichon.tr@vmasideas.com', 'Contacto');
+	$mail->AddReplyTo('contacto@bruckgermany.com.mx', 'Contacto');
 	//$mail->AddReplyTo($_POST['email'], 'Contacto');
 	$mail->SetFrom('info@bruck.com.mx', 'BRÜCK GERMANY');
 	//$mail->Timeout=30;
-	//$mail->addAddress('bryan.pichon.tr@vmasideas.com');
-	//$mail->addCC('pruebaphp@vmasideas.agency');
+	//$mail->addAddress('contacto@bruckgermany.com.mx');
+	//$mail->addCC('salvador.sanchez@vmasideas.com');
 	$mail->AddAddress('salvador.sanchez@vmasideas.com');//direccion destino
 	//$mail->AddAddress('info@bruck.com.mx');//direccion destino
 	/**if(isset($emailAdmin))

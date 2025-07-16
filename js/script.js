@@ -7,11 +7,11 @@
     document.addEventListener('DOMContentLoaded', function() {
       var video = document.getElementById('myVideo');
       if (detectDevice()) {
-        video.src = 'video/BruckGermany_Vert-V2.mp4';
+        video.src = 'video/marca_Vertical.mp4';
       }
     });
 
-    // Función para generar un número aleatorio entre min y max
+/*     // Función para generar un número aleatorio entre min y max
             function randomBetween(min, max) {
                 return Math.random() * (max - min) + min;
             }
@@ -103,4 +103,4 @@
                     createRandomSphereAnimation(sphere11);
                     createRandomSphereAnimation(sphere12);
                 });
-            }
+            } */
