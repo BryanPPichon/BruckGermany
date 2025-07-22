@@ -353,7 +353,7 @@ Con Brück Germany no solo obtienes piezas de excelencia, te integras a una comu
                                 </div>
 
                                 <div class="col-12 col-md-12 mt-3">
-                                    <div class="g-recaptcha p-0" id="recaptcha" data-sitekey="6LfBrBcqAAAAAPcZI_ZfxHsBNFq5ZmRBZWkISdpV"></div>
+                                    <div class="g-recaptcha p-0" id="recaptcha" data-sitekey="6LeFtYIrAAAAAEVqiM9qNGNyoSz65YBf66a_fWNK"></div>
                                     <div id="contact_message"></div>
                                 </div>
 
