@@ -95,9 +95,9 @@
                     <div class="">
                         <a class="" href="products.php#slide-5">Suspensión y dirección</a>
                     </div>
-                    <div class="">
+                    <!-- <div class="">
                         <a class="" href="products.php#slide-6">Amortiguadores </a>
-                    </div>
+                    </div> -->
                 </div>
                 
                 <!--CUARTA COLUMNA-->
