@@ -11,6 +11,9 @@
             <li class="nav-item m-0 mx-md-3">
                 <a class="nav-link" href="index.php">ADN</a>
             </li>
+            <li class="nav-item m-0 mx-md-3">
+                <a style="font-weight: bolder;" class="nav-link" href="https://catalogo.bruck.com.mx/" target="_blank">Catálogo Digital</a>
+            </li>
             <li class="nav-item dropdown m-0">
               <a class="nav-link dropdown-toggle" href="products.php" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Productos

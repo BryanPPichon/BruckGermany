@@ -2744,7 +2744,6 @@ select {
 @media screen and (max-width:800px) {
     #map {
         min-height: 35vh;
-        margin-top: 3rem;
     }
 }
 

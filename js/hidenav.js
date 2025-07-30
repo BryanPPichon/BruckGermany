@@ -24,13 +24,18 @@ document.addEventListener("mouseover", function(event) {
 
 
 $(document).on('scroll',function(){
-    if($(document).scrollTop()>=$('#aboutus').offset().top && $(document).scrollTop()<$('#partners').offset().top){ //assuming the about section has an id called about (#about)
-        $('#logob').attr("src","img/bruck_200.png");
-    }
-    else if($(document).scrollTop()>=$('#visiontxt').offset().top && $(document).scrollTop()<$('#mision').offset().top){
-        $('#logob').attr("src","img/bruck_200.png");
-    }
-    else{
-        $('#logob').attr("src","img/200_B&R.png");
+    if(!detectDevice()){
+        if($(document).scrollTop()>=$('#aboutus').offset().top && $(document).scrollTop()<$('#partners').offset().top){ //assuming the about section has an id called about (#about)
+            $('#logob').attr("src","img/bruck_200.png");
+            $('a.nav-link').css("color","var(--dark)!important");
+        }
+        else if($(document).scrollTop()>=$('#visiontxt').offset().top && $(document).scrollTop()<$('#mision').offset().top){
+            $('#logob').attr("src","img/bruck_200.png");
+            $('a.nav-link').css("color","var(--dark)!important");
+        }
+        else{
+            $('#logob').attr("src","img/200_B&R.png");
+            $('a.nav-link').css("color","var(--white)!important");
+        }
     }
 });

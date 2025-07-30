@@ -81,6 +81,9 @@
                 <div class="col-12 col-md-5 col-lg-3 text-center text-md-start">
                     <h3 class="efect">PRODUCTOS</h3>
                     <div class="">
+                        <a class="" style="font-weight: bolder;" href="https://catalogo.bruck.com.mx/" target="_blank">Catálogo digital</a>
+                    </div>
+                    <div class="">
                         <a class="" href="products.php#slide-1">Colisión e interiores</a>
                     </div>
                     <div class="">

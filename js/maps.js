@@ -17,7 +17,7 @@ async function initMap() {
   // A marker with a with a URL pointing to a PNG.
   const beachFlagImg = document.createElement("img");
 
-  beachFlagImg.src ="http://vmasideas.agency/globo2_40.png";
+  beachFlagImg.src ="https://bruck.com.mx/img/globo2_40.png";
 
   const beachFlagMarkerView = new AdvancedMarkerElement({
     map,

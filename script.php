@@ -16,7 +16,6 @@
  
 <!-- loader -->
 <script src="js/loader.js"></script>
-<script src="js/hidenav.js"></script>
 <script src="js/recaptcha.js"></script>
 <script src="js/cursor.js"></script><!-- 
 <script src="js/video.js"></script> -->
@@ -25,6 +24,7 @@
 <script src="js/ustext.js"></script>
 <script src="js/stickus.js"></script>
 <script src="js/script.js"></script>
+<script src="js/hidenav.js"></script>
 
 <script type="text/javascript">
 
