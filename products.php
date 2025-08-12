@@ -77,7 +77,7 @@
                                                 onclick="window.open('https://catalogo.bruck.com.mx/Search/Index?q=COLISION&ms=Index', '_blank')">Conoce
                                                 más</button>
                                             <button class="btn btn-danger btn-descargar"
-                                                onclick="window.open('pdf/CAT_COLISION_2025.pdf', '_blank')">Descargar</button>
+                                                onclick="window.open('Content/files/CAT_COLISION_2025.pdf', '_blank')">Descargar</button>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +112,7 @@
                                                 onclick="window.open('https://catalogo.bruck.com.mx/Search/Index?q=ELECTRICO&ms=Index', '_blank')">Conoce
                                                 más</button>
                                             <button class="btn btn-danger btn-descargar"
-                                                onclick="window.open('pdf/CAT_ELECTRICO_2025.pdf', '_blank')">Descargar</button>
+                                                onclick="window.open('Content/files/CAT_ELECTRICO_2025.pdf', '_blank')">Descargar</button>
                                         </div>
                                     </div>
                                 </div>
@@ -148,7 +148,7 @@
                                                 onclick="window.open('https://catalogo.bruck.com.mx/Search/Index?q=FRENOS%20Y%20CLUTCH&ms=Index', '_blank')">Conoce
                                                 más</button>
                                             <button class="btn btn-danger btn-descargar"
-                                                onclick="window.open('pdf/CAT_FRENOS_2025.pdf', '_blank')">Descargar</button>
+                                                onclick="window.open('Content/files/CAT_FRENOS_2025.pdf', '_blank')">Descargar</button>
                                         </div>
                                     </div>
                                 </div>
@@ -183,7 +183,7 @@
                                                 onclick="window.open('https://catalogo.bruck.com.mx/Search/Index?q=MOTOR&ms=Index', '_blank')">Conoce
                                                 más</button>
                                             <button class="btn btn-danger btn-descargar"
-                                                onclick="window.open('pdf/CAT_MOTOR_2025.pdf', '_blank')">Descargar</button>
+                                                onclick="window.open('Content/files/CAT_MOTOR_2025.pdf', '_blank')">Descargar</button>
                                         </div>
                                     </div>
                                 </div>
@@ -219,7 +219,7 @@
                                                 onclick="window.open('https://catalogo.bruck.com.mx/Search/Index?q=SUSPENSION&ms=Index', '_blank')">Conoce
                                                 más</button>
                                             <button class="btn btn-danger btn-descargar"
-                                                onclick="window.open('pdf/CAT_SUSPENSION_2025.pdf', '_blank')">Descargar</button>
+                                                onclick="window.open('Content/files/CAT_SUSPENSION_2025.pdf', '_blank')">Descargar</button>
                                         </div>
                                     </div>
                                 </div>
